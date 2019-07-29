@@ -1,0 +1,399 @@
+
+{
+  "@type": "SearchResultsPage",
+  "breadcrumb": [{
+    "itemListElement": [{
+      "@type": "ListItem",
+      "position": 0,
+      "item": {
+        "name": "Home",
+        "@id": "https://www.apartments.com/"
+      }
+    }],
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList"
+  }],
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["#marketingBlurb > p"],
+    "xpath": ["/html/head/meta[@name='description']/@content"]
+  },
+  "about": [{
+    "url": "https://www.apartments.com/the-point-at-city-line-philadelphia-pa/nqv8lbn/",
+    "image": "https://images1.apartments.com/i2/F6FXiU5PANna8fMsN6cgnnnaobMCX-j5tNbjYBYx7oA/114/the-point-at-city-line-philadelphia-pa-building-photo.jpg",
+    "Address": {
+      "@type": "PostalAddress",
+      "streetAddress": "6100 City Ave",
+      "addressLocality": "Philadelphia",
+      "addressRegion": "PA",
+      "postalCode": "19131",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-215-240-4087",
+    "@type": "ApartmentComplex",
+    "name": "The Point at City Line",
+    "@id": "https://www.apartments.com/the-point-at-city-line-philadelphia-pa/nqv8lbn/"
+  }, {
+    "url": "https://www.apartments.com/the-irvine-philadelphia-pa/61hve9v/",
+    "image": "https://images1.apartments.com/i2/gufNza2R6OHlhwE5xtaY1G_v2-lC3JSHnokrTAzZhEg/114/the-irvine-philadelphia-pa-3-bedroom-kitchen.jpg",
+    "Address": {
+      "@type": "PostalAddress",
+      "streetAddress": "780 S 52nd St",
+      "addressLocality": "Philadelphia",
+      "addressRegion": "PA",
+      "postalCode": "19143",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-855-473-7952",
+    "@type": "ApartmentComplex",
+    "name": "The Irvine",
+    "@id": "https://www.apartments.com/the-irvine-philadelphia-pa/61hve9v/"
+  }, {
+    "url": "https://www.apartments.com/the-palmer-wynnewood-pa/7s6eesx/",
+    "image": "https://images1.apartments.com/i2/5Xic__biNiz2IQ0t3LtjJ2N7unPh5K9wFujB4ypS4q0/114/the-palmer-wynnewood-pa-building-photo.jpg",
+    "Address": {
+      "@type": "PostalAddress",
+      "streetAddress": "18 E Lancaster Ave",
+      "addressLocality": "Wynnewood",
+      "addressRegion": "PA",
+      "postalCode": "19096",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-215-220-4826",
+    "@type": "ApartmentComplex",
+    "name": "The Palmer",
+    "@id": "https://www.apartments.com/the-palmer-wynnewood-pa/7s6eesx/"
+  }, {
+    "url": "https://www.apartments.com/the-courts-at-spring-mill-conshohocken-pa/ysg1sfr/",
+    "image": "https://images1.apartments.com/i2/FiefHhbnhVWpnUZzqrBE9bPBFMcY7kr7RlIg-iCrxFc/114/the-courts-at-spring-mill-conshohocken-pa-building-photo.jpg",
+    "Address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1101 E Hector St",
+      "addressLocality": "Conshohocken",
+      "addressRegion": "PA",
+      "postalCode": "19428",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-844-727-8762",
+    "@type": "ApartmentComplex",
+    "name": "The Courts at Spring Mill",
+    "@id": "https://www.apartments.com/the-courts-at-spring-mill-conshohocken-pa/ysg1sfr/"
+  }, {
+    "url": "https://www.apartments.com/ave-newtown-square-newtown-square-pa/3ldkx5f/",
+    "image": "https://images1.apartments.com/i2/-rJrWtpSXdQb2FVYun7RmiH7xb9fNBpuMt85_1DW3oI/114/ave-newtown-square-newtown-square-pa-building-photo.jpg",
+    "Address": {
+      "@type": "PostalAddress",
+      "streetAddress": "7000 Cornerstone Dr",
+      "addressLocality": "Newtown Square",
+      "addressRegion": "PA",
+      "postalCode": "19073",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-844-262-1908",
+    "@type": "ApartmentComplex",
+    "name": "AVE Newtown Square",
+    "@id": "https://www.apartments.com/ave-newtown-square-newtown-square-pa/3ldkx5f/"
+  }, {
+    "url": "https://www.apartments.com/the-dane-philadelphia-pa/mz3lvnk/",
+    "image": "https://images1.apartments.com/i2/1KH-9D_EefHqoDZMh7nJLGNWydw6Vf0EeTQPbp63D88/114/the-dane-philadelphia-pa-building-photo.jpg",
+    "Address": {
+      "@type": "PostalAddress",
+      "streetAddress": "2201 Bryn Mawr Ave",
+      "addressLocality": "Philadelphia",
+      "addressRegion": "PA",
+      "postalCode": "19131",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-844-752-3041",
+    "@type": "ApartmentComplex",
+    "name": "The Dane",
+    "@id": "https://www.apartments.com/the-dane-philadelphia-pa/mz3lvnk/"
+  }, {
+    "url": "https://www.apartments.com/madison-ellis-preserve-newtown-square-pa/7cjv7tw/",
+    "image": "https://images1.apartments.com/i2/KFZCkNcEK_Js8fd6QKA86Uov4NwhJHm3_s6UX8FbMU0/114/madison-ellis-preserve-newtown-square-pa-building-photo.jpg",
+    "Address": {
+      "@type": "PostalAddress",
+      "streetAddress": "400 Charles Ellis Dr",
+      "addressLocality": "Newtown Square",
+      "addressRegion": "PA",
+      "postalCode": "19073",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-484-685-5485",
+    "@type": "ApartmentComplex",
+    "name": "Madison Ellis Preserve",
+    "@id": "https://www.apartments.com/madison-ellis-preserve-newtown-square-pa/7cjv7tw/"
+  }, {
+    "url": "https://www.apartments.com/maybrook-wynnewood-pa/dgrs6wl/",
+    "image": "https://images1.apartments.com/i2/4_MmmAL3ptlXh3M0WY5F1tYD8W6NMhwgphZ_pgUinSA/114/maybrook-wynnewood-pa-building-photo.jpg",
+    "Address": {
+      "@type": "PostalAddress",
+      "streetAddress": "325 Penn Rd",
+      "addressLocality": "Wynnewood",
+      "addressRegion": "PA",
+      "postalCode": "19096",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-571-350-8785",
+    "@type": "ApartmentComplex",
+    "name": "Maybrook",
+    "@id": "https://www.apartments.com/maybrook-wynnewood-pa/dgrs6wl/"
+  }, {
+    "url": "https://www.apartments.com/one-ardmore-ardmore-pa/hjwym91/",
+    "image": "https://images1.apartments.com/i2/NJhD_px-5oBf_ll9HNRBlDzjqkbX_EQvElnLbH0aIEI/114/one-ardmore-ardmore-pa-building-photo.jpg",
+    "Address": {
+      "@type": "PostalAddress",
+      "streetAddress": "24 Cricket Ave",
+      "addressLocality": "Ardmore",
+      "addressRegion": "PA",
+      "postalCode": "19003",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-484-971-7336",
+    "@type": "ApartmentComplex",
+    "name": "One Ardmore",
+    "@id": "https://www.apartments.com/one-ardmore-ardmore-pa/hjwym91/"
+  }, {
+    "url": "https://www.apartments.com/the-kelly-bala-cynwyd-pa/hezp011/",
+    "image": "https://images1.apartments.com/i2/KDOBR4M8aYZFk-0nJvFAdjQRgENXztA1KGO-0DtDAoA/114/the-kelly-bala-cynwyd-pa-building-photo.jpg",
+    "Address": {
+      "@type": "PostalAddress",
+      "streetAddress": "10 Union Ave",
+      "addressLocality": "Bala Cynwyd",
+      "addressRegion": "PA",
+      "postalCode": "19004",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-844-280-8665",
+    "@type": "ApartmentComplex",
+    "name": "The Kelly",
+    "@id": "https://www.apartments.com/the-kelly-bala-cynwyd-pa/hezp011/"
+  }, {
+    "url": "https://www.apartments.com/the-view-at-manayunk-apartments-philadelphia-pa/rd3g7l0/",
+    "image": "https://images1.apartments.com/i2/mYdEDcwZP18sjVOoBNk0ZmpRMq4qTCoYmjmu1qWl_FE/114/the-view-at-manayunk-apartments-philadelphia-pa-building-photo.jpg",
+    "Address": {
+      "@type": "PostalAddress",
+      "streetAddress": "4136-40 Mitchell St",
+      "addressLocality": "Philadelphia",
+      "addressRegion": "PA",
+      "postalCode": "19128",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-215-330-5228",
+    "@type": "ApartmentComplex",
+    "name": "The View at Manayunk Apartments",
+    "@id": "https://www.apartments.com/the-view-at-manayunk-apartments-philadelphia-pa/rd3g7l0/"
+  }, {
+    "url": "https://www.apartments.com/the-wynnewood-wynnewood-pa/revb2d3/",
+    "image": "https://images1.apartments.com/i2/gfO_jBfdQnm4h7tq63bZgQNFCghUT0fNobwM-lQr_ec/114/the-wynnewood-wynnewood-pa-building-photo.jpg",
+    "Address": {
+      "@type": "PostalAddress",
+      "streetAddress": "150 E Wynnewood Rd",
+      "addressLocality": "Wynnewood",
+      "addressRegion": "PA",
+      "postalCode": "19096",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-844-887-5677",
+    "@type": "ApartmentComplex",
+    "name": "The Wynnewood",
+    "@id": "https://www.apartments.com/the-wynnewood-wynnewood-pa/revb2d3/"
+  }, {
+    "url": "https://www.apartments.com/new-kent-west-chester-pa/kbscbxb/",
+    "image": "https://images1.apartments.com/i2/YOnQYg8Ya90S9B2mVAdBfncPI6YZSLqrW8dlSIRcVNY/114/new-kent-west-chester-pa-building-photo.jpg",
+    "Address": {
+      "@type": "PostalAddress",
+      "streetAddress": "300 New Kent Dr",
+      "addressLocality": "West Chester",
+      "addressRegion": "PA",
+      "postalCode": "19380",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-844-211-3692",
+    "@type": "ApartmentComplex",
+    "name": "New Kent",
+    "@id": "https://www.apartments.com/new-kent-west-chester-pa/kbscbxb/"
+  }, {
+    "url": "https://www.apartments.com/the-royal-worthington-malvern-pa/485wdfh/",
+    "image": "https://images1.apartments.com/i2/5nYrk03713A_w6aKAa8MFttj11iaayDMJvpaEsD8vlk/114/the-royal-worthington-malvern-pa-lounge.jpg",
+    "Address": {
+      "@type": "PostalAddress",
+      "streetAddress": "45 Creekside Ln",
+      "addressLocality": "Malvern",
+      "addressRegion": "PA",
+      "postalCode": "19355",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-215-392-9331",
+    "@type": "ApartmentComplex",
+    "name": "The Royal Worthington",
+    "@id": "https://www.apartments.com/the-royal-worthington-malvern-pa/485wdfh/"
+  }, {
+    "url": "https://www.apartments.com/venice-lofts-philadelphia-pa/eym0g5m/",
+    "image": "https://images1.apartments.com/i2/UMQm_1HUXv8_BXffOz_h_3KYchS47TVZuqU8PHa8te0/114/venice-lofts-philadelphia-pa-building-photo.jpg",
+    "Address": {
+      "@type": "PostalAddress",
+      "streetAddress": "4601 Flat Rock Rd",
+      "addressLocality": "Philadelphia",
+      "addressRegion": "PA",
+      "postalCode": "19127",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-844-762-1254",
+    "@type": "ApartmentComplex",
+    "name": "Venice Lofts",
+    "@id": "https://www.apartments.com/venice-lofts-philadelphia-pa/eym0g5m/"
+  }, {
+    "url": "https://www.apartments.com/ave-malvern-malvern-pa/qvzbdpz/",
+    "image": "https://images1.apartments.com/i2/aFnUEAhvQH5hXVHFzIdLtPCO2-5RLCDE7GnSXJdAX9s/114/ave-malvern-malvern-pa-building-photo.jpg",
+    "Address": {
+      "@type": "PostalAddress",
+      "streetAddress": "311 E Lancaster Ave",
+      "addressLocality": "Malvern",
+      "addressRegion": "PA",
+      "postalCode": "19355",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-844-315-2066",
+    "@type": "ApartmentComplex",
+    "name": "AVE Malvern",
+    "@id": "https://www.apartments.com/ave-malvern-malvern-pa/qvzbdpz/"
+  }, {
+    "url": "https://www.apartments.com/riverwalk-apartment-homes-conshohocken-pa/dydsr2l/",
+    "image": "https://images1.apartments.com/i2/RCJNnccDZRH_dWYMk0PHxIn7eANJjLgEKMMJ-rmKN8g/114/riverwalk-apartment-homes-conshohocken-pa-located-right-along-the-schuylkill-river.jpg",
+    "Address": {
+      "@type": "PostalAddress",
+      "streetAddress": "309 Washington St",
+      "addressLocality": "Conshohocken",
+      "addressRegion": "PA",
+      "postalCode": "19428",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-844-288-5978",
+    "@type": "ApartmentComplex",
+    "name": "Riverwalk Apartment Homes",
+    "@id": "https://www.apartments.com/riverwalk-apartment-homes-conshohocken-pa/dydsr2l/"
+  }, {
+    "url": "https://www.apartments.com/the-station-at-manayunk-philadelphia-pa/ncwv55n/",
+    "image": "https://images1.apartments.com/i2/ac2QVu9QdYtde4E5bvAxxQYsqPDAPPIvkVMFctegsjE/114/the-station-at-manayunk-philadelphia-pa-all-new-kitchens.jpg",
+    "Address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1 Parker Ave",
+      "addressLocality": "Philadelphia",
+      "addressRegion": "PA",
+      "postalCode": "19128",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-855-486-3356",
+    "@type": "ApartmentComplex",
+    "name": "The Station at Manayunk",
+    "@id": "https://www.apartments.com/the-station-at-manayunk-philadelphia-pa/ncwv55n/"
+  }, {
+    "url": "https://www.apartments.com/stonegate-at-devon-apartment-homes-devon-pa/qccsqwy/",
+    "image": "https://images1.apartments.com/i2/d9xLsjyLsbYGeO03Z3u38mQ_3L2z9YIuaKR_K8Bq4HI/114/stonegate-at-devon-apartment-homes-devon-pa-building-photo.jpg",
+    "Address": {
+      "@type": "PostalAddress",
+      "streetAddress": "300 Avon Rd",
+      "addressLocality": "Devon",
+      "addressRegion": "PA",
+      "postalCode": "19333",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-844-251-1830",
+    "@type": "ApartmentComplex",
+    "name": "Stonegate at Devon Apartment Homes",
+    "@id": "https://www.apartments.com/stonegate-at-devon-apartment-homes-devon-pa/qccsqwy/"
+  }, {
+    "url": "https://www.apartments.com/lincoln-court-apartments-philadelphia-pa/wpls2mk/",
+    "image": "https://images1.apartments.com/i2/cI7RN7n76A3IILRzksZMidpXmnPe-ohD-Qm9Q2tgICA/114/lincoln-court-apartments-philadelphia-pa-building-photo.jpg",
+    "Address": {
+      "@type": "PostalAddress",
+      "streetAddress": "6351 Overbook Ave",
+      "addressLocality": "Philadelphia",
+      "addressRegion": "PA",
+      "postalCode": "19151",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-844-647-6567",
+    "@type": "ApartmentComplex",
+    "name": "Lincoln Court Apartments",
+    "@id": "https://www.apartments.com/lincoln-court-apartments-philadelphia-pa/wpls2mk/"
+  }, {
+    "url": "https://www.apartments.com/the-legacy-at-drexel-arms-philadelphia-pa/lgelnpg/",
+    "image": "https://images1.apartments.com/i2/8OPZSqOipZ183Yx1MouleyKwSbLxysxqYoF-Xe-yXs8/114/the-legacy-at-drexel-arms-philadelphia-pa-building-photo.jpg",
+    "Address": {
+      "@type": "PostalAddress",
+      "streetAddress": "6301 Overbrook Ave",
+      "addressLocality": "Philadelphia",
+      "addressRegion": "PA",
+      "postalCode": "19151",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-844-402-6649",
+    "@type": "ApartmentComplex",
+    "name": "The Legacy at Drexel Arms",
+    "@id": "https://www.apartments.com/the-legacy-at-drexel-arms-philadelphia-pa/lgelnpg/"
+  }, {
+    "url": "https://www.apartments.com/bala-apartments-philadelphia-pa/jejegh7/",
+    "image": "https://images1.apartments.com/i2/CTVzqNp7ZxNvMVaFdXCtUkitKoN03K9eV1sBZdNb0IQ/114/bala-apartments-philadelphia-pa-bala-apts.jpg",
+    "Address": {
+      "@type": "PostalAddress",
+      "streetAddress": "4920-4950 City Ave",
+      "addressLocality": "Philadelphia",
+      "addressRegion": "PA",
+      "postalCode": "19131",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-866-604-9519",
+    "@type": "ApartmentComplex",
+    "name": "Bala Apartments",
+    "@id": "https://www.apartments.com/bala-apartments-philadelphia-pa/jejegh7/"
+  }, {
+    "url": "https://www.apartments.com/the-royal-athena-bala-cynwyd-pa/sy3f9q7/",
+    "image": "https://images1.apartments.com/i2/l7A9MfCuRZmrLg9FFngrMWfEaR16rV4cALeY8BV1DRM/114/the-royal-athena-bala-cynwyd-pa-building-photo.jpg",
+    "Address": {
+      "@type": "PostalAddress",
+      "streetAddress": "600 Righters Ferry Rd",
+      "addressLocality": "Bala Cynwyd",
+      "addressRegion": "PA",
+      "postalCode": "19004",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-844-210-4113",
+    "@type": "ApartmentComplex",
+    "name": "The Royal Athena",
+    "@id": "https://www.apartments.com/the-royal-athena-bala-cynwyd-pa/sy3f9q7/"
+  }, {
+    "url": "https://www.apartments.com/ridge-carlton-apartments-philadelphia-pa/9beej87/",
+    "image": "https://images1.apartments.com/i2/pvX_cpHc32i-ewnoGLQ_rw1ExX3nd_M63iZJWPVbP6o/114/ridge-carlton-apartments-philadelphia-pa-stainless-steel-appliances-available.jpg",
+    "Address": {
+      "@type": "PostalAddress",
+      "streetAddress": "7373 Ridge Ave",
+      "addressLocality": "Philadelphia",
+      "addressRegion": "PA",
+      "postalCode": "19128",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-866-834-7400",
+    "@type": "ApartmentComplex",
+    "name": "Ridge Carlton Apartments",
+    "@id": "https://www.apartments.com/ridge-carlton-apartments-philadelphia-pa/9beej87/"
+  }, {
+    "url": "https://www.apartments.com/the-lofts-at-chimney-hill-philadelphia-pa/cmjwghg/",
+    "image": "https://images1.apartments.com/i2/6EgXs0GAWINiUgd97SMkDFoHYJwqSHPI-2Ao8br_zNU/114/the-lofts-at-chimney-hill-philadelphia-pa-building-photo.jpg",
+    "Address": {
+      "@type": "PostalAddress",
+      "streetAddress": "161 Leverington Ave",
+      "addressLocality": "Philadelphia",
+      "addressRegion": "PA",
+      "postalCode": "19127",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-888-331-5207",
+    "@type": "ApartmentComplex",
+    "name": "The Lofts At Chimney Hill",
+    "@id": "https://www.apartments.com/the-lofts-at-chimney-hill-philadelphia-pa/cmjwghg/"
+  }],
+  "magicbar": [],
+  "@context": "http://schema.org"
+}
