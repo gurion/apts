@@ -12,6 +12,8 @@ headers = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:68.0) Gecko/20100101 Firefox/68.0'
 }
 
+data = {'properties': []}
+
 
 def get_url_list():
     '''return a list of property URLs to parse in a given polygon'''
@@ -45,6 +47,26 @@ def get_property_ids_from_page(soup):
     return [placard['data-listingid'] for placard in placards]
 
 
+def get_property_address(soup):
+    '''given page, extract address'''
+    script = soup.find_all('script', type='text/javascript')[2].text
+    address = find_tag(script, 'listingAddress') + ', ' + find_tag(script, "listingCity") + \
+        ', ' + find_tag(script, "listingState") + ' ' + find_tag(script, "listingZip")
+    print(address)
+
+
+def find_tag(text, tag):
+    '''helper method for get_property_address'''
+    tag = tag + ": \'"
+    start = text.find(tag) + len(tag)
+    end = text.find("\',", start)
+    return str(text[start: end])
+
+
+def get_building_data(url):
+    '''Get the data from the table of apartments associated with the building'''
+
+
 def write_csv():
     '''write data structure (in format in testing/data_structure.json) to a csv file'''
 
@@ -53,37 +75,9 @@ def create_csv_file():
     '''create a csv file for writing data'''
 
 
-def get_policy():
-    '''Get building policies - parking, gym, etc.'''
-
-
-def get_rent(table_row):
-    '''get rent given table row tag'''
-
-
-def get_sqft(table_row):
-    '''get square footage given table row tag'''
-
-
-def get_all_row_data(table_row):
-    '''get all the data for a given property'''
-    property_dict = {
-        'beds': table_row.get('data-beds', -1),
-        'baths': table_row.get('data-baths', None),
-
-    }
-
-
-def get_building_data(property_soup):
-    '''
-        Get the data from the table of apartments associated with the building
-        '''
-
-
 def main():
     '''
     '''
-    get_url_list()
 
 
 if __name__ == '__main__':
