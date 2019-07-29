@@ -24,6 +24,21 @@ def get_page(url):
     return bs(content, 'html.parser')
 
 
+def write_csv():
+    '''
+    '''
+
+
+def create_csv_file():
+    '''
+    '''
+
+
+def get_policy():
+    '''
+    '''
+
+
 def get_rent(table_row):
     '''get rent given table row tag'''
 

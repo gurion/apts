@@ -1,0 +1,20 @@
+{
+	"properties" : [{
+		"address" : "str",
+		"units" : [{
+			"unit" : "str",
+			"beds" : "int",
+			"baths" : "float",
+			"rent" : "int",
+			"sqft" : "",
+			"availabilty" : "int"
+		}],
+		"policies" : {
+			"pets" : "str",
+			"parking" : "str",
+			"property_info" : "str",
+			"fitness" : "str",
+			"outdoor" : "str"
+		}
+	}]
+}
