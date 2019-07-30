@@ -8,7 +8,7 @@ import pandas
 ########## GLOBAL VARS #######################
 BASE_URL = 'https://www.apartments.com/'
 # This is your unique search identifier from a region
-extension = '?sk=5cad1a13429d27fcc6faa34b11b0ddd1&bb=yskr9wknwHzl3_uB/'
+extension = '?sk=2e9f24608a4a19df461e27d9e96015fa&bb=ioh107pkwH_m-0yC/'
 headers = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:68.0) Gecko/20100101 Firefox/68.0'
 }
@@ -17,7 +17,7 @@ url_dict = {}
 ##############################################
 
 
-def get_url_list():
+def fill_url_dict():
     '''return a list of property URLs to parse in a given polygon'''
     soup = get_page_soup(BASE_URL + extension)
     page_urls = get_all_page_urls(soup)
@@ -67,8 +67,11 @@ def add_building_data(address, url):
         table_rows = soup.find('div', {'id': 'apartmentsTabContainer'}).find(
             'div', {'class': 'js-expandableContainer'}).find('tbody').find_all('tr')
     except:
-        print(url)
-
+        try:
+            table_rows = soup.find('section', {'id': 'availabilitySection'}).find(
+                'tbody').find_all('tr', {'class': 'rentalGridRow'})
+        except:
+            print(url)
     for tr in table_rows:
         unit = get_unit(tr)
         beds = get_beds(tr)
@@ -114,10 +117,10 @@ def get_rent(tr):
 
 def get_sqft(tr):
     '''get square footage'''
-    sqft = tr.find('td', {'class': 'sqft'}).get_text().split()[0]
-    if sqft == '':
+    sqft = tr.find('td', {'class': 'sqft'}).get_text()
+    if sqft == '' or sqft == '-':
         return -1
-    return int(sqft.strip().replace(',', ''))
+    return int(sqft.split()[0].strip().replace(',', ''))
 
 
 def get_avail(tr):
@@ -125,8 +128,10 @@ def get_avail(tr):
     avail = tr.find('td', {'class': 'available'})
     if avail is None:
         return -1
-    avail = 1 if avail.text == 'Available Now' else 0
-    return avail
+    if avail.get_text() == 'Available Now':
+        return 1
+    else:
+        return 0
 
 
 def add_address(address):
@@ -175,7 +180,7 @@ def create_csv_file():
 def main():
     '''
     '''
-    get_url_list()
+    fill_url_dict()
     scrape()
     print(data)
 
