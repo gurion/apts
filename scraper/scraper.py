@@ -72,10 +72,32 @@ def get_building_data(url):
         'div', {'class': 'js-expandableContainer'}).find('tbody').find_all('tr')
 
     for tr in table_rows:
-        try:
-            beds = int(tr.find('td', {'class': 'beds'}).text.split()[0])
-        except ValueError:
-            beds = 0
+		unit = tr.find('td', {'class': 'name'}).text
+		beds = get_td_bed_bath(tr, 'beds', int)
+		baths = get_td_bed_bath(tr, 'baths', float)
+		rent = get_td_other(tr, 'rent', int)
+		sqft = get_td_other(tr, 'sqft', int)
+		avail = 1 if tr.find('td', {'class': 'available'}).text == 'Available Now' else 0
+		print(unit, beds, baths, rent, sqft, avail)
+
+
+def get_td_bed_bath(table_row, class_name, type):
+    try:
+        return_val = type(table_row.find('td', {'class': class_name}).text.split()[0])
+    except ValueError:
+        if (class_name == 'beds'):
+            return_val = 0
+        else:
+            return_val = -1
+    return return_val
+
+
+def get_td_other(table_row, class_name, type):
+	try:
+        return_val = type(table_row.find('td', {'class': class_name}).text.split()[0])
+    except ValueError:
+        return_val = -1
+    return return_val
 
 
 def add_address(address):
