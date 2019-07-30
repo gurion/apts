@@ -11,7 +11,7 @@ extension = 'new-york-ny/'  # This is your unique search identifier from a regio
 headers = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:68.0) Gecko/20100101 Firefox/68.0'
 }
-data = {'properties': []}
+data = {'properties': {}}
 ##############################################
 
 
@@ -72,37 +72,65 @@ def get_building_data(url):
         'div', {'class': 'js-expandableContainer'}).find('tbody').find_all('tr')
 
     for tr in table_rows:
-		unit = tr.find('td', {'class': 'name'}).text
-		beds = get_td_bed_bath(tr, 'beds', int)
-		baths = get_td_bed_bath(tr, 'baths', float)
-		rent = get_td_other(tr, 'rent', int)
-		sqft = get_td_other(tr, 'sqft', int)
-		avail = 1 if tr.find('td', {'class': 'available'}).text == 'Available Now' else 0
-		print(unit, beds, baths, rent, sqft, avail)
+        unit = get_unit(tr)
+        beds = get_beds(tr)
+        baths = get_baths(tr)
+        rent = get_rent(tr)
+        sqft = get_sqft(tr)
+        avail = get_avail(tr)
+        add_unit(address, unit, beds, baths, rent, sqft, avail)
 
 
-def get_td_bed_bath(table_row, class_name, type):
-    try:
-        return_val = type(table_row.find('td', {'class': class_name}).text.split()[0])
-    except ValueError:
-        if (class_name == 'beds'):
-            return_val = 0
-        else:
-            return_val = -1
-    return return_val
+def get_unit(tr):
+    '''get unit number'''
+    unit = tr.find('td', {'class': 'name '})
+    if unit is None:
+        return -1
+    return unit.text.strip()
 
 
-def get_td_other(table_row, class_name, type):
-	try:
-        return_val = type(table_row.find('td', {'class': class_name}).text.split()[0])
-    except ValueError:
-        return_val = -1
-    return return_val
+def get_beds(tr):
+    '''get number of bedrooms'''
+    beds = tr.find('td', {'class': 'beds'}).text.split()[0]
+    if beds == 'Studio':
+        beds = 0
+    return int(beds)
+
+
+def get_baths(tr):
+    '''get number of bathrooms'''
+    baths = tr.find('td', {'class': 'baths'}).text.split()[0]
+    return float(baths)
+
+
+def get_rent(tr):
+    '''get rent'''
+    rent = tr.find('td', {'class': 'rent'})
+    if rent is None:
+        return -1
+    return int(rent.text.strip().replace(',', '').strip('$'))
+
+
+def get_sqft(tr):
+    '''get square footage'''
+    sqft = tr.find('td', {'class': 'sqft'}).text
+    if sqft == '':
+        return -1
+    return int(sqft.text.strip().replace(',', ''))
+
+
+def get_avail(tr):
+    '''get availability'''
+    avail = tr.find('td', {'class': 'available'})
+    if avail is None:
+        return -1
+    avail = 1 if avail.text == 'Available Now' else 0
+    return avail
 
 
 def add_address(address):
     '''add building to database'''
-    data['properties'] += {
+    data['properties'].update({
         address: {
             'units': [],
             'policies': {
@@ -113,10 +141,10 @@ def add_address(address):
                 "outdoor": "TBD"
             }
         }
-    }
+    })
 
 
-def add_unit(address, unit_num='', beds=-1, baths=-1.0, rent=-1, sqft=-1, availablility=-1):
+def add_unit(address, unit_num='', beds=-1, baths=-1.0, rent=-1, sqft=-1, avail=-1):
     '''add a unit to the database'''
     data["properties"][address]["units"].append({
         "unit": unit_num,
@@ -124,7 +152,7 @@ def add_unit(address, unit_num='', beds=-1, baths=-1.0, rent=-1, sqft=-1, availa
         "baths": baths,
         "rent": rent,
         "sqft": sqft,
-        "availabilty": availablility
+        "avail": avail
     })
 
 
@@ -140,6 +168,7 @@ def main():
     '''
     '''
     get_building_data("https://www.apartments.com/sky-new-york-ny/w1h7edh/")
+    print(data)
 
 
 if __name__ == '__main__':
