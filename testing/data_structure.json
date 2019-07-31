@@ -1,21 +1,20 @@
 {
-  "properties": {
-      "address": {
-        "units": [{
-          "unit": "str",
-          "beds": "int",
-          "baths": "float",
-          "rent": "int",
-          "sqft": "int",
-          "availabilty": "int"
-        }],
-				"policies" : {
-					"pets" : "str",
-					"parking" : "str",
-					"property_info" : "str",
-					"fitness" : "str",
-					"outdoor" : "str"
-				}
-      }
-  }
+	"address": {
+		"units": [{
+			"address": "str",
+			"unit": "str",
+			"beds": "int",
+			"baths": "float",
+			"rent": "int",
+			"sqft": "int",
+			"availabilty": "int"
+		}],
+		"policies" : {
+			"pets" : "str",
+			"parking" : "str",
+			"property_info" : "str",
+			"fitness" : "str",
+			"outdoor" : "str"
+		}
+	}
 }

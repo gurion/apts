@@ -73,13 +73,16 @@ def add_building_data(address, url):
         except:
             print(url)
     for tr in table_rows:
-        unit = get_unit(tr)
-        beds = get_beds(tr)
-        baths = get_baths(tr)
-        rent = get_rent(tr)
-        sqft = get_sqft(tr)
-        avail = get_avail(tr)
-        add_unit(address, unit, beds, baths, rent, sqft, avail)
+        try:
+            unit = get_unit(tr)
+            beds = get_beds(tr)
+            baths = get_baths(tr)
+            rent = get_rent(tr)
+            sqft = get_sqft(tr)
+            avail = get_avail(tr)
+            add_unit(address, unit, beds, baths, rent, sqft, avail)
+        except:
+            print(url)
 
 
 def get_unit(tr):
@@ -117,8 +120,8 @@ def get_rent(tr):
 
 def get_sqft(tr):
     '''get square footage'''
-    sqft = tr.find('td', {'class': 'sqft'}).get_text()
-    if sqft == '' or sqft == '-':
+    sqft = tr.find('td', {'class': 'sqft'}).text.strip()
+    if (sqft == '' or sqft == '-'):
         return -1
     return int(sqft.split()[0].strip().replace(',', ''))
 
@@ -138,13 +141,13 @@ def add_address(address):
     '''add building to database'''
     data.update({
         address: {
-            "units": [],
-            "policies": {
-                "pets": "TBD",
-                "parking": "TBD",
-                "property_info": "TBD",
-                "fitness": "TBD",
-                "outdoor": "TBD"
+            'units': [],
+            'policies': {
+                'pets': 'TBD',
+                'parking': 'TBD',
+                'property_info': 'TBD',
+                'fitness': 'TBD',
+                'outdoor': 'TBD'
             }
         }
     })
@@ -152,13 +155,14 @@ def add_address(address):
 
 def add_unit(address, unit_num='', beds=-1, baths=-1.0, rent=-1, sqft=-1, avail=-1):
     '''add a unit to the database'''
-    data[address]["units"].append({
-        "unit": unit_num,
-        "beds": beds,
-        "baths": baths,
-        "rent": rent,
-        "sqft": sqft,
-        "avail": avail
+    data[address]['units'].append({
+        'address': address,
+        'unit': unit_num,
+        'beds': beds,
+        'baths': baths,
+        'rent': rent,
+        'sqft': sqft,
+        'avail': avail
     })
 
 
@@ -170,11 +174,15 @@ def scrape():
 
 
 def write_csv():
-    '''write data structure (in format in testing/data_structure.json) to a csv file'''
+    '''write data to a csv file'''
+    with open('apts.csv', mode='w') as file:
+        fields = ['address', 'unit', 'beds', 'baths', 'rent', 'sqft', 'avail']
+        writer = csv.DictWriter(file, fieldnames=fields)
 
-
-def create_csv_file():
-    '''create a csv file for writing data'''
+        writer.writeheader()
+        for address in data:
+            for unit in data[address]['units']:
+                writer.writerow(unit)
 
 
 def main():
@@ -182,7 +190,7 @@ def main():
     '''
     fill_url_dict()
     scrape()
-    print(data)
+    write_csv()
 
 
 if __name__ == '__main__':
