@@ -74,7 +74,7 @@ def add_building_data(address, url):
             print(url)
     for tr in table_rows:
         try:
-            unit = get_unit(tr)
+            unit = get_unit_name(tr)
             beds = get_beds(tr)
             baths = get_baths(tr)
             rent = get_rent(tr)
@@ -85,7 +85,7 @@ def add_building_data(address, url):
             print(url)
 
 
-def get_unit(tr):
+def get_unit_name(tr):
     '''get unit number'''
     unit = tr.find('td', {'class': 'name '})
     if unit is None:
@@ -153,7 +153,7 @@ def add_address(address):
     })
 
 
-def add_unit(address, unit_num='', beds=-1, baths=-1.0, rent=-1, sqft=-1, avail=-1):
+def add_unit(address, unit_num, beds, baths, rent, sqft, avail):
     '''add a unit to the database'''
     data[address]['units'].append({
         'address': address,
@@ -167,6 +167,7 @@ def add_unit(address, unit_num='', beds=-1, baths=-1.0, rent=-1, sqft=-1, avail=
 
 
 def scrape():
+	'''get data for all apartments from each url'''
     for url in url_dict:
         address = url_dict[url]
         add_address(address)
@@ -186,8 +187,7 @@ def write_csv():
 
 
 def main():
-    '''
-    '''
+    '''find all the urls, scrape the data, write to csv'''
     fill_url_dict()
     scrape()
     write_csv()
