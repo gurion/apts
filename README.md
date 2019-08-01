@@ -1,6 +1,6 @@
-A simple web scraper to get apartment data.
+###A simple web scraper to get apartment data.
 
-To use:
+###To use:
 	1. Make sure all requirements are installed
 		* If not, run `pip install -r requirements.txt`
 	2. run `python scraper.py`
