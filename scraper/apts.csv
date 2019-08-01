@@ -1,16 +1,1175 @@
 address,unit,beds,baths,rent,sqft,avail
-"188 E 75th St, New York, NY 10021",-1,0,1.0,1950,-1,0
-"231 E 76th St, New York, NY 10021",-1,1,1.0,3600,-1,0
-"177 E 75th St, New York, NY 10021",-1,4,4.0,18000,-1,0
-"1022 Lexington Ave, New York, NY 10021",-1,1,1.0,3995,600,0
-"1007 Lexington Ave, New York, NY 10021",-1,1,1.0,3499,650,0
-"190 E 7th St, New York, NY 10009",-1,3,1.0,4440,-1,0
-"211-213 E 73rd St, New York, NY 10021",PHA,1,2.0,3600,-1,0
-"160 E 74th St, New York, NY 10021",-1,4,2.0,8495,-1,0
-"1049 Lexington Ave, New York, NY 10021",-1,1,1.0,3750,-1,0
-"128 E 74th St, New York, NY 10021",-1,5,8.0,65000,-1,0
-"157 E 74th St, New York, NY 10021",-1,1,1.0,6500,-1,0
-"188 E 76th St, New York, NY 10021",-1,2,2.0,7000,-1,0
-"145 E 74th St, New York, NY 10021",-1,2,3.0,10500,-1,0
-"170 E 77th St, New York, NY 10075",-1,3,3.5,13500,-1,0
-"241 E 76th St, New York, NY 10021",-1,1,1.0,3000,-1,0
+"50 W 34th St, New York, NY 10001",New,1,1.0,4500,-1,1
+"50 W 34th St, New York, NY 10001",New,1,1.0,5050,-1,1
+"50 W 34th St, New York, NY 10001",Super,1,2.0,5100,-1,1
+"50 W 34th St, New York, NY 10001",Super,1,2.0,5100,-1,1
+"50 W 34th St, New York, NY 10001",New,1,1.0,5100,-1,0
+"50 W 34th St, New York, NY 10001",S 3.0,1,1.0,4262,-1,0
+"50 W 34th St, New York, NY 10001",S 3.0,1,1.0,5100,-1,0
+"50 W 34th St, New York, NY 10001",S 3.0,1,1.0,5300,-1,0
+"50 W 34th St, New York, NY 10001",S 3.0,1,1.0,3225,-1,0
+"50 W 34th St, New York, NY 10001",New,1,1.0,4150,-1,0
+"50 W 34th St, New York, NY 10001",New,1,1.0,3900,-1,0
+"50 W 34th St, New York, NY 10001",New,1,1.0,5000,-1,0
+"282 11th Ave, New York, NY 10001",S3,0,1.0,3165,491,1
+"282 11th Ave, New York, NY 10001",S7,0,1.0,3527,516,1
+"282 11th Ave, New York, NY 10001",S4,0,1.0,3490,505,1
+"282 11th Ave, New York, NY 10001",S2,0,1.0,3490,478,1
+"282 11th Ave, New York, NY 10001",S6,0,1.0,3550,516,1
+"282 11th Ave, New York, NY 10001",A4,1,1.0,4250,655,1
+"282 11th Ave, New York, NY 10001",A11,1,1.0,4480,721,1
+"282 11th Ave, New York, NY 10001",A3,1,1.0,4600,653,1
+"282 11th Ave, New York, NY 10001",B1,2,1.0,5870,882,1
+"282 11th Ave, New York, NY 10001",B2,2,2.0,6065,1001,1
+"282 11th Ave, New York, NY 10001",B3,2,2.0,6690,1094,1
+"282 11th Ave, New York, NY 10001",B4,2,2.0,6740,1153,1
+"282 11th Ave, New York, NY 10001",B7,2,2.0,8660,1346,1
+"282 11th Ave, New York, NY 10001",S8,0,1.0,3310,524,0
+"282 11th Ave, New York, NY 10001",S1,0,1.0,-1,453,0
+"282 11th Ave, New York, NY 10001",S10,0,1.0,-1,541,0
+"282 11th Ave, New York, NY 10001",S12,0,1.0,-1,576,0
+"282 11th Ave, New York, NY 10001",S5,0,1.0,-1,514,0
+"282 11th Ave, New York, NY 10001",S9,0,1.0,-1,530,0
+"282 11th Ave, New York, NY 10001",S11,0,1.0,-1,550,0
+"282 11th Ave, New York, NY 10001",A2,1,1.0,3865,630,0
+"282 11th Ave, New York, NY 10001",A1,1,1.0,3920,621,0
+"282 11th Ave, New York, NY 10001",A5,1,1.0,4190,683,0
+"282 11th Ave, New York, NY 10001",A9,1,1.0,4325,715,0
+"282 11th Ave, New York, NY 10001",A8,1,1.0,4475,707,0
+"282 11th Ave, New York, NY 10001",A10,1,1.0,4620,719,0
+"282 11th Ave, New York, NY 10001",A6,1,1.0,-1,684,0
+"282 11th Ave, New York, NY 10001",A12,1,1.0,-1,730,0
+"282 11th Ave, New York, NY 10001",A13,1,1.0,-1,772,0
+"282 11th Ave, New York, NY 10001",A7,1,1.0,-1,687,0
+"282 11th Ave, New York, NY 10001",A14,1,1.0,-1,804,0
+"282 11th Ave, New York, NY 10001",A15,1,1.0,-1,853,0
+"282 11th Ave, New York, NY 10001",B6,2,2.0,8105,1247,0
+"282 11th Ave, New York, NY 10001",B8,2,2.0,-1,1468,0
+"282 11th Ave, New York, NY 10001",B5,2,2.0,-1,1185,0
+"21 W End Ave, New York, NY 10023",2 Bedroom / 2 Bathroom,2,2.0,8459,1145,1
+"21 W End Ave, New York, NY 10023",2 Bedroom / 2 Bathroom,2,2.0,8438,-1,1
+"21 W End Ave, New York, NY 10023",2 Bedroom / 2 Bathroom,2,2.0,8750,-1,1
+"21 W End Ave, New York, NY 10023",3 Bedroom / 2 Bathroom,3,2.0,10397,1185,1
+"21 W End Ave, New York, NY 10023",3 Bedroom / 2 Bathroom,3,2.0,10397,-1,1
+"21 W End Ave, New York, NY 10023",2 Bedroom / 2 Bathroom,2,2.0,8168,-1,0
+"515 W 52nd St, New York, NY 10019",398,0,1.0,2897,398,1
+"515 W 52nd St, New York, NY 10019",457,0,1.0,3120,457,1
+"515 W 52nd St, New York, NY 10019",444,0,1.0,3152,444,1
+"515 W 52nd St, New York, NY 10019",481,0,1.0,3181,481,1
+"515 W 52nd St, New York, NY 10019",550,0,1.0,3253,550,1
+"515 W 52nd St, New York, NY 10019",479,0,1.0,3295,479,1
+"515 W 52nd St, New York, NY 10019",508,0,1.0,3356,508,1
+"515 W 52nd St, New York, NY 10019",585,1,1.0,3409,585,1
+"515 W 52nd St, New York, NY 10019",624,1,1.0,3655,624,1
+"515 W 52nd St, New York, NY 10019",602,1,1.0,3738,602,1
+"515 W 52nd St, New York, NY 10019",627,1,1.0,3794,627,1
+"515 W 52nd St, New York, NY 10019",604,1,1.0,3816,604,1
+"515 W 52nd St, New York, NY 10019",619,1,1.0,3908,619,1
+"515 W 52nd St, New York, NY 10019",674,1,1.0,3923,674,1
+"515 W 52nd St, New York, NY 10019",716,1,1.0,3984,716,1
+"515 W 52nd St, New York, NY 10019",773,1,1.0,4089,731,1
+"515 W 52nd St, New York, NY 10019",630,1,1.0,4047,630,1
+"515 W 52nd St, New York, NY 10019",929,1,1.0,4048,929,1
+"515 W 52nd St, New York, NY 10019",789,1,1.0,4187,789,1
+"515 W 52nd St, New York, NY 10019",723,1,1.0,4223,723,1
+"515 W 52nd St, New York, NY 10019",1039,2,2.0,5973,1039,1
+"515 W 52nd St, New York, NY 10019",1142,2,2.0,6256,1142,1
+"515 W 52nd St, New York, NY 10019",496,0,1.0,-1,496,0
+"515 W 52nd St, New York, NY 10019",497,0,1.0,-1,497,0
+"515 W 52nd St, New York, NY 10019",545,0,1.0,-1,545,0
+"515 W 52nd St, New York, NY 10019",563,0,1.0,-1,563,0
+"515 W 52nd St, New York, NY 10019",426,0,1.0,-1,426,0
+"515 W 52nd St, New York, NY 10019",584,1,1.0,3344,584,0
+"515 W 52nd St, New York, NY 10019",828,1,1.0,3503,828,0
+"515 W 52nd St, New York, NY 10019",667,1,1.0,3983,667,0
+"515 W 52nd St, New York, NY 10019",720,1,1.0,-1,720,0
+"515 W 52nd St, New York, NY 10019",731,1,1.0,-1,731,0
+"515 W 52nd St, New York, NY 10019",745,1,1.0,-1,745,0
+"515 W 52nd St, New York, NY 10019",751,1,1.0,-1,751,0
+"515 W 52nd St, New York, NY 10019",762,1,1.0,-1,751,0
+"515 W 52nd St, New York, NY 10019",795,1,1.0,-1,795,0
+"515 W 52nd St, New York, NY 10019",800,1,1.0,-1,800,0
+"515 W 52nd St, New York, NY 10019",560,1,1.0,-1,560,0
+"515 W 52nd St, New York, NY 10019",597,1,1.0,-1,597,0
+"515 W 52nd St, New York, NY 10019",612,1,1.0,-1,612,0
+"515 W 52nd St, New York, NY 10019",635,1,1.0,-1,635,0
+"515 W 52nd St, New York, NY 10019",647,1,1.0,-1,647,0
+"515 W 52nd St, New York, NY 10019",695,1,1.0,-1,695,0
+"515 W 52nd St, New York, NY 10019",715,1,1.0,-1,715,0
+"515 W 52nd St, New York, NY 10019",751,1,1.0,-1,751,0
+"515 W 52nd St, New York, NY 10019",1018,2,2.0,-1,1018,0
+"515 W 52nd St, New York, NY 10019",1094,2,2.0,-1,1094,0
+"515 W 52nd St, New York, NY 10019",1155,2,2.0,-1,1155,0
+"515 W 52nd St, New York, NY 10019",1210,2,2.0,-1,1210,0
+"515 W 52nd St, New York, NY 10019",847,2,2.0,-1,847,0
+"515 W 52nd St, New York, NY 10019",892,2,2.0,-1,892,0
+"515 W 52nd St, New York, NY 10019",910,2,2.0,-1,910,0
+"515 W 52nd St, New York, NY 10019",970,2,2.0,-1,970,0
+"515 W 52nd St, New York, NY 10019",971,2,2.0,-1,971,0
+"515 W 52nd St, New York, NY 10019",1364,2,2.0,-1,1364,0
+"515 W 52nd St, New York, NY 10019",1816,2,2.0,-1,1816,0
+"250 W 50th St, New York, NY 10019",S1-428,0,1.0,3220,428,1
+"250 W 50th St, New York, NY 10019",A1-674-C-and-F,1,1.0,3837,674,1
+"250 W 50th St, New York, NY 10019",A1-682,1,1.0,3772,682,1
+"250 W 50th St, New York, NY 10019",A1-667-J,1,1.0,3802,666,1
+"250 W 50th St, New York, NY 10019",A1-658,1,1.0,3963,658,1
+"250 W 50th St, New York, NY 10019",A1-674-E,1,1.0,3928,674,1
+"250 W 50th St, New York, NY 10019",A1-683-L-and-G,1,1.0,4047,683,1
+"250 W 50th St, New York, NY 10019",A1-667-K-and-F,1,1.0,4178,666,1
+"250 W 50th St, New York, NY 10019",A1-771,1,1.0,4163,771,1
+"250 W 50th St, New York, NY 10019",A1-667-H-and-M,1,1.0,4132,666,1
+"250 W 50th St, New York, NY 10019",A1-715,1,1.0,4188,715,1
+"250 W 50th St, New York, NY 10019",A1-673,1,1.0,4263,673,1
+"250 W 50th St, New York, NY 10019",A1-777,1,1.0,4338,777,1
+"250 W 50th St, New York, NY 10019",A1-736,1,1.0,4385,736,1
+"250 W 50th St, New York, NY 10019",A1-823,1,1.0,4399,823,1
+"250 W 50th St, New York, NY 10019",B1-947,2,2.0,6163,947,1
+"250 W 50th St, New York, NY 10019",B1-1027,2,2.0,6354,1027,1
+"250 W 50th St, New York, NY 10019",S1-412,0,1.0,3324,412,0
+"250 W 50th St, New York, NY 10019",S1-559,0,1.0,-1,559,0
+"250 W 50th St, New York, NY 10019",A1-667-G,1,1.0,-1,666,0
+"250 W 50th St, New York, NY 10019",A1-683-F-and-H,1,1.0,-1,683,0
+"250 W 50th St, New York, NY 10019",A1-686,1,1.0,-1,686,0
+"250 W 50th St, New York, NY 10019",712,1,1.0,-1,600,0
+"250 W 50th St, New York, NY 10019",A1-29C,1,1.0,-1,674,0
+"250 W 50th St, New York, NY 10019",B1-1120,2,2.0,6336,1120,0
+"250 W 50th St, New York, NY 10019",B1-1057,2,2.0,6339,1057,0
+"250 W 50th St, New York, NY 10019",953,2,2.0,-1,953,0
+"250 W 50th St, New York, NY 10019",B1-1009,2,2.0,-1,1009,0
+"250 W 50th St, New York, NY 10019",B1-1016,2,1.0,-1,1016,0
+"250 W 50th St, New York, NY 10019",B1-1157,2,2.0,-1,1157,0
+"63 Wall St, New York, NY 10005",Jr 1 Bedroom / 1 Bathroom,0,1.0,3690,630,1
+"63 Wall St, New York, NY 10005",1 Bedroom / 1 Bathroom,1,1.0,3698,456,1
+"63 Wall St, New York, NY 10005",1 Bedroom / 1 Bathroom,1,1.0,4102,746,1
+"63 Wall St, New York, NY 10005",Jr 1 Bedroom / 1 Bathroom,1,1.0,3690,630,1
+"63 Wall St, New York, NY 10005",1 Bedroom / 1 Bathroom,1,1.0,3295,456,0
+"63 Wall St, New York, NY 10005",2 Bedroom / 1 Bathroom,2,1.0,5094,682,0
+"63 Wall St, New York, NY 10005",2 Bedroom / 1 Bathroom,2,1.0,5094,682,0
+"222 E 34th St, New York, NY 10016",1510,0,1.0,3390,-1,1
+"222 E 34th St, New York, NY 10016",1526,0,1.0,3390,-1,1
+"222 E 34th St, New York, NY 10016",603,1,1.0,3815,-1,1
+"222 E 34th St, New York, NY 10016",1231,1,1.0,3875,-1,1
+"222 E 34th St, New York, NY 10016",1728,1,1.0,3975,-1,1
+"222 E 34th St, New York, NY 10016",507,1,1.0,4100,-1,1
+"222 E 34th St, New York, NY 10016",509,1,1.0,4125,-1,1
+"222 E 34th St, New York, NY 10016",1625,1,1.0,4400,-1,1
+"222 E 34th St, New York, NY 10016",1422,2,2.0,5850,750,1
+"2001-2017 Broadway, New York, NY 10023",1 Bedroom / 1 Bathroom,1,1.0,4125,571,1
+"2001-2017 Broadway, New York, NY 10023",1 Bedroom / 1 Bathroom,1,1.0,4125,571,1
+"2001-2017 Broadway, New York, NY 10023",Jr 4 / 1 Bathroom,1,1.0,5175,859,1
+"2001-2017 Broadway, New York, NY 10023",Jr 4 / 1 Bathroom,1,1.0,5175,859,1
+"225 E 95th St, New York, NY 10128",1 Bedroom / 1 Bathroom,1,1.0,3350,562,1
+"225 E 95th St, New York, NY 10128",1 Bedroom / 1 Bathroom,1,1.0,3480,563,1
+"225 E 95th St, New York, NY 10128",Studio / 1 Bathroom,0,1.0,2670,419,0
+"225 E 95th St, New York, NY 10128",Studio / 1 Bathroom,0,1.0,2670,419,0
+"225 E 95th St, New York, NY 10128",2 Bedroom / 1.5 Bathroom,2,1.5,4515,936,0
+"225 E 95th St, New York, NY 10128",2 Bedroom / 1.5 Bathroom,2,1.5,4435,961,0
+"225 E 95th St, New York, NY 10128",1 Bedroom / 1 Bathroom,1,1.0,3220,562,0
+"225 E 95th St, New York, NY 10128",2 Bedroom / 1.5 Bathroom,2,1.5,4595,936,0
+"225 E 95th St, New York, NY 10128",2 Bedroom / 2 Bathroom,2,2.0,4675,838,0
+"225 E 95th St, New York, NY 10128",2 Bedroom / 2 Bathroom,2,2.0,4675,838,0
+"409 E 14th St, New York, NY 10009",1BCNS,1,1.0,3505,745,1
+"409 E 14th St, New York, NY 10009",1BCNS,1,1.0,3495,749,1
+"409 E 14th St, New York, NY 10009",1BCNC,1,1.0,3537,763,1
+"409 E 14th St, New York, NY 10009",1BCNC,1,1.0,3532,763,1
+"409 E 14th St, New York, NY 10009",1BCNC,1,1.0,3532,771,1
+"409 E 14th St, New York, NY 10009",1BCNC,1,1.0,3542,771,1
+"409 E 14th St, New York, NY 10009",1BCNS,1,1.0,3515,745,0
+"409 E 14th St, New York, NY 10009",1BMYS,1,1.0,3762,745,0
+"409 E 14th St, New York, NY 10009",1BMYS,2,1.0,3776,745,0
+"409 E 14th St, New York, NY 10009",1BCYC,1,1.0,3622,771,0
+"409 E 14th St, New York, NY 10009",1BCYC,1,1.0,3622,771,0
+"409 E 14th St, New York, NY 10009",1BMYS,1,1.0,3790,745,0
+"409 E 14th St, New York, NY 10009",1BMYC,1,1.0,3814,764,0
+"409 E 14th St, New York, NY 10009",1BMYC,2,1.0,3814,764,0
+"409 E 14th St, New York, NY 10009",2BCYS,2,1.0,5187,948,0
+"409 E 14th St, New York, NY 10009",2BCYS,3,1.0,5176,948,0
+"409 E 14th St, New York, NY 10009",2BCYS,2,1.0,5165,959,0
+"360 1st Ave, New York, NY 10010",1BCNS,1,1.0,3910,944,1
+"360 1st Ave, New York, NY 10010",1BCYS,1,1.0,4505,944,1
+"360 1st Ave, New York, NY 10010",1BCYS,1,1.0,4975,944,1
+"360 1st Ave, New York, NY 10010",1BCNS,2,1.0,3956,944,1
+"360 1st Ave, New York, NY 10010",2BCNS,2,2.0,5297,1211,1
+"360 1st Ave, New York, NY 10010",2BCNS,2,2.0,5420,1211,1
+"360 1st Ave, New York, NY 10010",2BMNS,2,2.0,5427,1211,1
+"360 1st Ave, New York, NY 10010",2BMNS,2,2.0,5417,1211,1
+"360 1st Ave, New York, NY 10010",2BMNS,2,2.0,5437,1211,1
+"360 1st Ave, New York, NY 10010",1BCNS,1,1.0,3805,944,0
+"360 1st Ave, New York, NY 10010",2BCNS,2,2.0,5175,1211,0
+"360 1st Ave, New York, NY 10010",2BCNS,2,2.0,5255,1211,0
+"360 1st Ave, New York, NY 10010",1BCNS,1,1.0,3777,944,0
+"360 1st Ave, New York, NY 10010",1BCYS,2,1.0,4044,944,0
+"360 1st Ave, New York, NY 10010",1BCYS,1,1.0,4035,944,0
+"360 1st Ave, New York, NY 10010",1BCNS,1,1.0,3912,944,0
+"360 1st Ave, New York, NY 10010",1BCNS,1,1.0,4135,944,0
+"180 Water St, New York, NY 10038",2 Bedroom / 2 Bathroom,2,2.0,5704,1013,1
+"180 Water St, New York, NY 10038",2 Bedroom / 2 Bathroom,2,2.0,5587,1013,1
+"180 Water St, New York, NY 10038",Alcove Studio / 1 Bathroom,0,1.0,3506,524,0
+"180 Water St, New York, NY 10038",Alcove Studio / 1 Bathroom,0,1.0,3506,524,0
+"180 Water St, New York, NY 10038",2 Bedroom / 2 Bathroom,2,2.0,5821,1013,0
+"180 Water St, New York, NY 10038",Studio / 1 Bathroom,0,1.0,3020,450,0
+"180 Water St, New York, NY 10038",Studio / 1 Bathroom,0,1.0,3020,450,0
+"180 Water St, New York, NY 10038",1 Bedroom / 1 Bathroom,1,1.0,4026,525,0
+"180 Water St, New York, NY 10038",1 Bedroom / 1 Bathroom,1,1.0,3754,525,0
+"180 Water St, New York, NY 10038",1 Bedroom / 1 Bathroom,1,1.0,3823,525,0
+"180 Water St, New York, NY 10038",1 Bedroom / 1 Bathroom,1,1.0,3859,545,0
+"180 Water St, New York, NY 10038",1 Bedroom / 1 Bathroom,1,1.0,4299,730,0
+"180 Water St, New York, NY 10038",1 Bedroom w/ HO / 2 Bathroom,1,2.0,5097,917,0
+"180 Water St, New York, NY 10038",1 Bedroom w/ HO / 2 Bathroom,1,2.0,5097,917,0
+"180 Water St, New York, NY 10038",2 Bedroom / 1 Bathroom,2,1.0,4991,740,0
+"180 Water St, New York, NY 10038",2 Bedroom / 1 Bathroom,2,1.0,4991,740,0
+"180 Water St, New York, NY 10038",3 Bedroom / 3 Bathroom,3,3.0,7746,1279,0
+"180 Water St, New York, NY 10038",3 Bedroom / 3 Bathroom,3,3.0,7746,1279,0
+"601 W 57th St, New York, NY 10019",Alcove Studio / 1 Bathroom,0,1.0,3525,468,1
+"601 W 57th St, New York, NY 10019",Alcove Studio / 1 Bathroom,0,1.0,3525,-1,1
+"601 W 57th St, New York, NY 10019",1 Bedroom / 1 Bathroom,1,1.0,4295,813,1
+"601 W 57th St, New York, NY 10019",1 Bedroom / 1 Bathroom,1,1.0,4295,-1,1
+"100 W 31st St, New York, NY 10001",1 Bedroom / 1 Bathroom,1,1.0,4991,745,1
+"100 W 31st St, New York, NY 10001",1 Bedroom / 1 Bathroom,1,1.0,4762,-1,1
+"100 W 31st St, New York, NY 10001",1 Bedroom / 1 Bathroom,1,1.0,5220,-1,1
+"100 W 31st St, New York, NY 10001",2 Bedroom / 1 Bathroom,2,1.0,6687,-1,1
+"100 W 31st St, New York, NY 10001",2 Bedroom / 1 Bathroom,2,1.0,6687,-1,1
+"100 W 31st St, New York, NY 10001",Studio / 1 Bathroom,0,1.0,4250,510,0
+"100 W 31st St, New York, NY 10001",Studio / 1 Bathroom,0,1.0,4250,-1,0
+"505 W 37th St, New York, NY 10018",Apartment 31F,0,1.0,3250,478,1
+"505 W 37th St, New York, NY 10018",Apartment 4108,0,1.0,3260,488,1
+"505 W 37th St, New York, NY 10018",Apartment 3B,2,2.0,5750,1048,1
+"505 W 37th St, New York, NY 10018",Apartment 301,1,1.0,3695,626,0
+"505 W 37th St, New York, NY 10018",Apartment 8D,1,1.0,4230,703,0
+"505 W 37th St, New York, NY 10018",Apartment 4J,2,2.0,6000,1236,0
+"525 W 28th St, New York, NY 10001",S20,0,1.0,3440,481,1
+"525 W 28th St, New York, NY 10001",S21,0,1.0,3513,520,1
+"525 W 28th St, New York, NY 10001",S23,0,1.0,3565,543,1
+"525 W 28th St, New York, NY 10001",S29,0,1.0,3750,619,1
+"525 W 28th St, New York, NY 10001",S30,0,1.0,3805,621,1
+"525 W 28th St, New York, NY 10001",S22,0,1.0,3920,538,1
+"525 W 28th St, New York, NY 10001",A22,1,1.0,4185,589,1
+"525 W 28th St, New York, NY 10001",A26,1,1.0,4325,656,1
+"525 W 28th St, New York, NY 10001",A25,1,1.0,4630,648,1
+"525 W 28th St, New York, NY 10001",A28,1,1.0,4715,673,1
+"525 W 28th St, New York, NY 10001",B20,2,2.0,5980,909,1
+"525 W 28th St, New York, NY 10001",B30,2,2.0,8038,1651,1
+"525 W 28th St, New York, NY 10001",B29,2,2.0,8045,1482,1
+"525 W 28th St, New York, NY 10001",S31,0,1.0,-1,672,0
+"525 W 28th St, New York, NY 10001",S24,0,1.0,-1,548,0
+"525 W 28th St, New York, NY 10001",S25,0,1.0,-1,549,0
+"525 W 28th St, New York, NY 10001",S26,0,1.0,-1,563,0
+"525 W 28th St, New York, NY 10001",S27,0,1.0,-1,587,0
+"525 W 28th St, New York, NY 10001",S28,0,1.0,-1,600,0
+"525 W 28th St, New York, NY 10001",A30,1,1.0,4360,693,0
+"525 W 28th St, New York, NY 10001",A23,1,1.0,4385,595,0
+"525 W 28th St, New York, NY 10001",A21,1,1.0,-1,565,0
+"525 W 28th St, New York, NY 10001",A29,1,1.0,-1,684,0
+"525 W 28th St, New York, NY 10001",A24,1,1.0,-1,626,0
+"525 W 28th St, New York, NY 10001",A27,1,1.0,-1,671,0
+"525 W 28th St, New York, NY 10001",A31,1,1.0,-1,701,0
+"525 W 28th St, New York, NY 10001",A32,1,1.0,-1,761,0
+"525 W 28th St, New York, NY 10001",A33,1,1.0,-1,817,0
+"525 W 28th St, New York, NY 10001",B25,2,2.0,5915,1124,0
+"525 W 28th St, New York, NY 10001",B28,2,1.0,-1,1437,0
+"525 W 28th St, New York, NY 10001",B21,2,2.0,-1,966,0
+"525 W 28th St, New York, NY 10001",B22,2,1.0,-1,982,0
+"525 W 28th St, New York, NY 10001",B26,2,1.0,-1,1296,0
+"525 W 28th St, New York, NY 10001",B27,2,1.0,-1,1383,0
+"525 W 28th St, New York, NY 10001",B23,2,2.0,-1,1057,0
+"525 W 28th St, New York, NY 10001",B24,2,2.0,-1,1092,0
+"525 W 28th St, New York, NY 10001",B31,2,2.0,-1,1752,0
+"345-395 S End Ave, New York, NY 10280",1 Bedroom/1 Bath,1,1.0,4125,624,1
+"345-395 S End Ave, New York, NY 10280",1 Bedroom/1 Bath,1,1.0,4200,794,1
+"345-395 S End Ave, New York, NY 10280",,1,1.0,4255,810,1
+"345-395 S End Ave, New York, NY 10280",3 Bedroom,3,2.0,7432,1249,1
+"345-395 S End Ave, New York, NY 10280",3 Bedroom,3,2.0,8375,1249,1
+"345-395 S End Ave, New York, NY 10280",Studio,0,1.0,3142,460,0
+"345-395 S End Ave, New York, NY 10280",Studio,0,1.0,3480,559,0
+"345-395 S End Ave, New York, NY 10280",Alcove Studio,0,1.0,3312,594,0
+"345-395 S End Ave, New York, NY 10280",2 Bedroom/2 Bath,2,2.0,5985,624,0
+"606 W 57th St, New York, NY 10019",Apartment 1717,1,1.0,4144,681,1
+"606 W 57th St, New York, NY 10019",Apartment 2008,2,2.0,6550,1049,0
+"606 W 57th St, New York, NY 10019",Apartment 2406,2,2.0,6820,984,0
+"2 Gold St, New York, NY 10038",Apartment 4D,0,1.0,3090,489,1
+"2 Gold St, New York, NY 10038",Apartment 6B,1,1.0,4630,774,1
+"2 Gold St, New York, NY 10038",Apartment 3912,3,2.0,7673,1123,1
+"2 Gold St, New York, NY 10038",Apartment 1703,2,2.0,6290,1027,0
+"2 Gold St, New York, NY 10038",Apartment 2003,2,2.0,6320,1027,0
+"435 W 31st St, New York, NY 10001",Premium Studio,0,1.0,3867,-1,1
+"435 W 31st St, New York, NY 10001",Premium Studio,0,1.0,3867,-1,1
+"435 W 31st St, New York, NY 10001",Western Studio,0,1.0,3900,-1,1
+"435 W 31st St, New York, NY 10001",Western Studio,0,1.0,3900,-1,1
+"435 W 31st St, New York, NY 10001",Penthouse Studio,0,1.0,3929,-1,1
+"435 W 31st St, New York, NY 10001",Penthouse Studio,0,1.0,3929,-1,1
+"435 W 31st St, New York, NY 10001",Low-Mid 1 Bed,1,1.0,4327,702,1
+"435 W 31st St, New York, NY 10001",Low-Mid 1 Bed,1,1.0,4327,702,1
+"435 W 31st St, New York, NY 10001",1 Bed,1,1.0,4681,774,1
+"435 W 31st St, New York, NY 10001",1 Bed,1,1.0,4681,-1,1
+"435 W 31st St, New York, NY 10001",Prime Corner 1 Bed,1,1.0,4777,-1,1
+"435 W 31st St, New York, NY 10001",Prime Corner 1 Bed,1,1.0,4777,-1,1
+"435 W 31st St, New York, NY 10001",Premium 1 Bed,1,1.0,5304,754,1
+"435 W 31st St, New York, NY 10001",Premium 1 Bed,1,1.0,5304,-1,1
+"435 W 31st St, New York, NY 10001",2 Bed,2,2.0,7513,1019,1
+"435 W 31st St, New York, NY 10001",2 Bed,2,2.0,7513,-1,1
+"435 W 31st St, New York, NY 10001",Prime 2 Bed,2,2.0,8936,1196,0
+"435 W 31st St, New York, NY 10001",Prime 2 Bed,2,2.0,8936,1196,0
+"435 W 31st St, New York, NY 10001",Southern Studio,0,1.0,4279,505,0
+"435 W 31st St, New York, NY 10001",Southern Studio,0,1.0,4279,505,0
+"435 W 31st St, New York, NY 10001",Prime Corner 3 Bed,3,2.0,11476,-1,0
+"435 W 31st St, New York, NY 10001",Prime Corner 3 Bed,3,2.0,11476,-1,0
+"435 W 31st St, New York, NY 10001",Penthouse 1 Bed,1,1.0,5348,-1,0
+"435 W 31st St, New York, NY 10001",Penthouse 1 Bed,1,1.0,5348,-1,0
+"796 Madison Ave, New York, NY 10021",-1,1,1.0,8250,-1,0
+"796 Madison Ave, New York, NY 10021",-1,2,2.0,6500,-1,0
+"605 W 42nd St, New York, NY 10036",67,1,1.0,4775,-1,1
+"605 W 42nd St, New York, NY 10036",36,0,1.0,3075,-1,0
+"605 W 42nd St, New York, NY 10036",61 Studio,0,1.0,3655,-1,0
+"605 W 42nd St, New York, NY 10036",69,0,1.0,4195,-1,0
+"605 W 42nd St, New York, NY 10036",59 2BR,2,2.0,6800,-1,0
+"605 W 42nd St, New York, NY 10036",68,2,2.0,6925,-1,0
+"605 W 42nd St, New York, NY 10036",61 2BR,2,2.0,7040,-1,0
+"25 Waterside Plz, New York, NY 10010",E616- 30 Waterside,1,1.0,3000,691,1
+"25 Waterside Plz, New York, NY 10010",13G- 30 Waterside,2,2.0,3375,720,1
+"25 Waterside Plz, New York, NY 10010",A216- 10 Waterside,2,2.0,5400,1013,1
+"25 Waterside Plz, New York, NY 10010",D708- 40 Waterside,3,1.5,6395,1028,1
+"25 Waterside Plz, New York, NY 10010",19D- 20 Waterside,3,1.0,4950,1000,0
+"25 Waterside Plz, New York, NY 10010",36A-30 Waterside,3,2.0,8500,1194,0
+"1365 Saint Nicholas Ave, New York, NY 10033",1365 13L,0,1.0,2034,400,1
+"1365 Saint Nicholas Ave, New York, NY 10033",1365- 3M,1,1.0,2483,650,1
+"1365 Saint Nicholas Ave, New York, NY 10033",260- 22G,2,1.0,2665,850,1
+"101 W End Ave, Manhattan, NY 10023",1 Bedroom / 1.5 Bathroom,1,1.5,5087,825,1
+"101 W End Ave, Manhattan, NY 10023",1 Bedroom / 1.5 Bathroom,1,1.5,4996,825,1
+"101 W End Ave, Manhattan, NY 10023",1 Bedroom / 1.5 Bathroom,1,1.5,5179,876,1
+"101 W End Ave, Manhattan, NY 10023",2 Bedroom / 2 Bathroom,2,2.0,7200,1023,1
+"101 W End Ave, Manhattan, NY 10023",2 Bedroom / 2 Bathroom,2,2.0,6875,1113,1
+"101 W End Ave, Manhattan, NY 10023",2 Bedroom / 2 Bathroom,2,2.0,7375,1023,1
+"101 W End Ave, Manhattan, NY 10023",2 Bedroom / 2 Bathroom,2,2.0,7526,1211,1
+"101 W End Ave, Manhattan, NY 10023",3 Bedroom / 3 Bathroom,3,3.0,11206,1772,1
+"101 W End Ave, Manhattan, NY 10023",3 Bedroom / 3 Bathroom,3,3.0,11206,1772,1
+"101 W End Ave, Manhattan, NY 10023",Studio / 1 Bathroom,0,1.0,3566,561,0
+"101 W End Ave, Manhattan, NY 10023",Studio / 1 Bathroom,0,1.0,3566,561,0
+"155 E 31st St, New York, NY 10016",2 Bedroom / 1 Bathroom,2,1.0,5755,875,1
+"155 E 31st St, New York, NY 10016",2 Bedroom / 1 Bathroom,2,1.0,5755,875,1
+"155 E 31st St, New York, NY 10016",Flex 3 / 2 Bathroom,2,2.0,6420,1006,0
+"155 E 31st St, New York, NY 10016",Flex 3 / 2 Bathroom,2,2.0,6420,1006,0
+"155 E 31st St, New York, NY 10016",1 Bedroom / 1 Bathroom,1,1.0,4385,580,0
+"155 E 31st St, New York, NY 10016",1 Bedroom / 1 Bathroom,1,1.0,4385,580,0
+"155 E 29th St, New York, NY 10016",Jr 4 / 1 Bathroom,1,1.0,4627,728,0
+"155 E 29th St, New York, NY 10016",Jr 4 / 1 Bathroom,1,1.0,4645,728,0
+"155 E 29th St, New York, NY 10016",Jr 4 / 1 Bathroom,1,1.0,4610,759,0
+"20 W 64th St, New York, NY 10023",2 Bedroom / 2.5 Bathroom,2,2.5,9325,1293,1
+"20 W 64th St, New York, NY 10023",2 Bedroom / 2.5 Bathroom,2,2.5,9325,1293,1
+"20 W 64th St, New York, NY 10023",Jr 4 / 2 Bathroom,1,2.0,6995,1056,0
+"20 W 64th St, New York, NY 10023",Jr 4 / 2 Bathroom,1,2.0,6995,1056,0
+"509 W 38th St, New York, NY 10018",S-14,0,1.0,3831,427,1
+"509 W 38th St, New York, NY 10018",S-8,0,1.0,4207,439,1
+"509 W 38th St, New York, NY 10018",S-4,0,1.0,4069,604,1
+"509 W 38th St, New York, NY 10018",S-12,0,1.0,4347,476,1
+"509 W 38th St, New York, NY 10018",S-11,0,1.0,4418,596,1
+"509 W 38th St, New York, NY 10018",1B-1,1,1.0,4146,680,1
+"509 W 38th St, New York, NY 10018",1B-11,1,1.0,4187,691,1
+"509 W 38th St, New York, NY 10018",1B-19,1,1.0,4661,654,1
+"509 W 38th St, New York, NY 10018",1B-3,1,1.0,4223,775,1
+"509 W 38th St, New York, NY 10018",1B-23,1,1.0,4897,643,1
+"509 W 38th St, New York, NY 10018",1B-25,1,1.0,4913,678,1
+"509 W 38th St, New York, NY 10018",1B-17,1,1.0,4478,707,1
+"509 W 38th St, New York, NY 10018",1B-22,1,1.0,5035,658,1
+"509 W 38th St, New York, NY 10018",S-6,0,1.0,3441,422,0
+"509 W 38th St, New York, NY 10018",S-13,0,1.0,3481,504,0
+"509 W 38th St, New York, NY 10018",S-7,0,1.0,3449,471,0
+"509 W 38th St, New York, NY 10018",S-5,0,1.0,3516,494,0
+"509 W 38th St, New York, NY 10018",S-3,0,1.0,3539,421,0
+"509 W 38th St, New York, NY 10018",S-2,0,1.0,3614,494,0
+"509 W 38th St, New York, NY 10018",S-1,0,1.0,3639,521,0
+"509 W 38th St, New York, NY 10018",S-10,0,1.0,3679,599,0
+"509 W 38th St, New York, NY 10018",S-9,0,1.0,3764,616,0
+"509 W 38th St, New York, NY 10018",1B-6,1,1.0,3934,622,0
+"509 W 38th St, New York, NY 10018",1B-8,1,1.0,3996,617,0
+"509 W 38th St, New York, NY 10018",1B-7,1,1.0,4044,615,0
+"509 W 38th St, New York, NY 10018",1B-20,1,1.0,4049,657,0
+"509 W 38th St, New York, NY 10018",1B-21,1,1.0,4049,657,0
+"509 W 38th St, New York, NY 10018",1B-16,1,1.0,4246,667,0
+"509 W 38th St, New York, NY 10018",1B-14,1,1.0,4106,691,0
+"509 W 38th St, New York, NY 10018",1B-2,1,1.0,4131,759,0
+"509 W 38th St, New York, NY 10018",1B-9,1,1.0,4156,712,0
+"509 W 38th St, New York, NY 10018",1B-10,1,1.0,4114,752,0
+"509 W 38th St, New York, NY 10018",1B-13,1,1.0,4166,752,0
+"509 W 38th St, New York, NY 10018",1B-12,1,1.0,4134,769,0
+"509 W 38th St, New York, NY 10018",1B-24,1,1.0,4159,667,0
+"509 W 38th St, New York, NY 10018",1B-15,1,1.0,4186,769,0
+"509 W 38th St, New York, NY 10018",1B-18,1,1.0,4204,658,0
+"509 W 38th St, New York, NY 10018",2B-11,2,2.0,5897,933,0
+"509 W 38th St, New York, NY 10018",2B-1,2,2.0,5979,1104,0
+"509 W 38th St, New York, NY 10018",2B-3,2,2.0,5982,1032,0
+"509 W 38th St, New York, NY 10018",2B-2,2,2.0,6102,1032,0
+"509 W 38th St, New York, NY 10018",2B-4,2,2.0,6277,997,0
+"509 W 38th St, New York, NY 10018",2B-8,2,2.0,6587,1189,0
+"509 W 38th St, New York, NY 10018",2B-7,2,2.0,6597,1256,0
+"509 W 38th St, New York, NY 10018",2B-10,2,2.0,6657,1256,0
+"509 W 38th St, New York, NY 10018",2B-5,2,2.0,6677,1189,0
+"509 W 38th St, New York, NY 10018",2B-9,2,2.0,6702,1303,0
+"509 W 38th St, New York, NY 10018",2B-6,2,2.0,6792,1303,0
+"625 W 57th St, New York, NY 10019",1 Bedroom / 1 Bathroom,1,1.0,4947,741,1
+"625 W 57th St, New York, NY 10019",1 Bedroom / 1 Bathroom,1,1.0,4850,-1,1
+"625 W 57th St, New York, NY 10019",2 Bedroom / 1 Bathroom,2,1.0,6800,760,1
+"625 W 57th St, New York, NY 10019",2 Bedroom / 1 Bathroom,2,1.0,6800,-1,1
+"625 W 57th St, New York, NY 10019",Alcove Studio / 1 Bathroom,0,1.0,3795,768,0
+"625 W 57th St, New York, NY 10019",Alcove Studio / 1 Bathroom,0,1.0,3795,-1,0
+"625 W 57th St, New York, NY 10019",1 Bedroom / 1 Bathroom,1,1.0,4500,-1,0
+"625 W 57th St, New York, NY 10019",1 Bedroom / 1 Bathroom,1,1.0,5395,-1,0
+"116 John St, New York, NY 10038",1 Bedroom / 1 Bathroom,1,1.0,3282,559,1
+"116 John St, New York, NY 10038",1 Bedroom / 1 Bathroom,1,1.0,3282,559,1
+"600 W 58th St, New York, NY 10019",1 Bedroom / 1 Bathroom,1,1.0,4218,588,1
+"600 W 58th St, New York, NY 10019",1 Bedroom / 1 Bathroom,1,1.0,4218,-1,1
+"195 Stanton St, New York, NY 10002",2 Bedrooms,2,1.0,4445,-1,1
+"195 Stanton St, New York, NY 10002",3 Bedrooms,3,2.0,6095,-1,1
+"195 Stanton St, New York, NY 10002",4 Bedrooms,4,2.0,8295,-1,1
+"195 Stanton St, New York, NY 10002",5 Bedrooms,5,2.0,9495,-1,1
+"46-52 W 68th St, New York, NY 10023",&nbsp,1,1.0,4280,739,1
+"46-52 W 68th St, New York, NY 10023",&nbsp,1,1.0,3862,739,1
+"46-52 W 68th St, New York, NY 10023",&nbsp,1,1.0,4671,771,0
+"46-52 W 68th St, New York, NY 10023",&nbsp,0,1.0,3439,779,0
+"46-52 W 68th St, New York, NY 10023",&nbsp,1,1.5,4766,770,0
+"46-52 W 68th St, New York, NY 10023",&nbsp,2,2.0,5580,1184,0
+"46-52 W 68th St, New York, NY 10023",&nbsp,2,2.5,5965,1200,0
+"46-52 W 68th St, New York, NY 10023",&nbsp,3,3.5,9490,1350,0
+"550 W 54th St, New York, NY 10019",1 Bed 1 Bath,1,1.0,4510,628,1
+"550 W 54th St, New York, NY 10019",3 Bed 2 Bath,3,2.0,8090,1227,1
+"550 W 54th St, New York, NY 10019",2 Bed 1 Bath,2,1.0,6090,848,0
+"550 W 54th St, New York, NY 10019",2 Bed 2 Bath,2,2.0,6327,848,0
+"550 W 54th St, New York, NY 10019",2 Bed 2 Bath,2,2.0,6050,991,0
+"550 W 54th St, New York, NY 10019",2 Bed 2 Bath,2,2.0,6875,951,0
+"550 W 54th St, New York, NY 10019",1 Bed 1 Bath,1,1.0,4605,620,0
+"550 W 54th St, New York, NY 10019",1 Bed 2 Bath Den,1,2.0,-1,905,0
+"550 W 54th St, New York, NY 10019",1 Bed 1 Bath Den,1,1.0,-1,721,0
+"550 W 54th St, New York, NY 10019",1 Bed 1 Bath,1,1.0,-1,748,0
+"550 W 54th St, New York, NY 10019",2 Bed 2 Bath,2,2.0,-1,1004,0
+"550 W 54th St, New York, NY 10019",2 Bed 2 Bath,2,2.0,-1,1055,0
+"550 W 54th St, New York, NY 10019",3 Bed 2 Bath,3,2.0,-1,1300,0
+"332 E 18th St, New York, NY 10003",&nbsp,3,2.0,5709,1150,0
+"332 E 18th St, New York, NY 10003",&nbsp,3,2.0,5708,-1,0
+"332 E 18th St, New York, NY 10003",&nbsp,2,1.0,4851,475,0
+"332 E 18th St, New York, NY 10003",&nbsp,3,1.0,4786,475,0
+"332 E 18th St, New York, NY 10003",&nbsp,4,2.0,6665,1150,0
+"490 2nd Ave, New York, NY 10016",A-1 Bedroom,1,1.0,3920,683,1
+"490 2nd Ave, New York, NY 10016",A-1 Bedroom,1,1.0,3920,683,1
+"490 2nd Ave, New York, NY 10016",C-2 Bedroom w/ terr,2,1.0,4340,762,1
+"490 2nd Ave, New York, NY 10016",C-2 Bedroom w/ terr,2,1.0,4340,762,1
+"490 2nd Ave, New York, NY 10016",F-1 Bedroom w/ terr,2,1.0,4425,692,0
+"490 2nd Ave, New York, NY 10016",F-1 Bedroom w/ terr,2,1.0,4425,692,0
+"490 2nd Ave, New York, NY 10016",C-Alcove Studio,0,1.0,3035,510,0
+"490 2nd Ave, New York, NY 10016",C-Alcove Studio,1,1.0,3035,510,0
+"490 2nd Ave, New York, NY 10016",F-2 Bedroom w/ terr,2,1.5,5195,953,0
+"490 2nd Ave, New York, NY 10016",F-2 Bedroom w/ terr,2,1.5,5195,953,0
+"490 2nd Ave, New York, NY 10016",E-1 Bedroom w/ terr,2,1.0,4330,670,0
+"490 2nd Ave, New York, NY 10016",E-1 Bedroom w/ terr,2,1.0,4330,670,0
+"490 2nd Ave, New York, NY 10016",C-1 Bedroom,1,1.0,3475,510,0
+"490 2nd Ave, New York, NY 10016",C-1 Bedroom,1,1.0,3475,510,0
+"490 2nd Ave, New York, NY 10016",B-Studio,0,1.0,3105,498,0
+"490 2nd Ave, New York, NY 10016",B-Studio,0,1.0,3105,498,0
+"15 E 11th St, New York, NY 10003",15 East 11th Street,1,1.0,3964,414,0
+"15 E 11th St, New York, NY 10003",15 East 11th Street - 5-G,1,1.0,3970,414,0
+"15 E 11th St, New York, NY 10003",15 East 11th Street,3,1.0,2348,651,0
+"15 E 11th St, New York, NY 10003",15 East 11th Street,3,2.0,2728,780,0
+"15 E 11th St, New York, NY 10003",15 East 11th Street - 4-A,1,1.0,3817,414,0
+"15 E 11th St, New York, NY 10003",15 East 11th Street - 10-A,1,1.0,3964,414,0
+"1 Morningside Dr, New York, NY 10025",A2,1,1.0,4630,674,1
+"1 Morningside Dr, New York, NY 10025",A4,1,1.0,4630,718,1
+"1 Morningside Dr, New York, NY 10025",A5,1,1.0,4700,722,1
+"1 Morningside Dr, New York, NY 10025",A8,1,1.0,4775,744,1
+"1 Morningside Dr, New York, NY 10025",B5P,2,2.0,7051,1226,1
+"1 Morningside Dr, New York, NY 10025",S1,0,1.0,-1,483,0
+"1 Morningside Dr, New York, NY 10025",S2,0,1.0,-1,542,0
+"1 Morningside Dr, New York, NY 10025",A6,1,1.0,4250,748,0
+"1 Morningside Dr, New York, NY 10025",A16,1,1.0,4445,783,0
+"1 Morningside Dr, New York, NY 10025",A10,1,1.0,4780,750,0
+"1 Morningside Dr, New York, NY 10025",A3P,1,1.0,-1,718,0
+"1 Morningside Dr, New York, NY 10025",A5P,1,1.0,-1,722,0
+"1 Morningside Dr, New York, NY 10025",A8P,1,1.0,-1,744,0
+"1 Morningside Dr, New York, NY 10025",A7,1,1.0,-1,746,0
+"1 Morningside Dr, New York, NY 10025",A6P,1,1.0,-1,748,0
+"1 Morningside Dr, New York, NY 10025",A15P,1,1.0,-1,853,0
+"1 Morningside Dr, New York, NY 10025",A9P,1,1.0,-1,749,0
+"1 Morningside Dr, New York, NY 10025",A7P,1,1.0,-1,746,0
+"1 Morningside Dr, New York, NY 10025",A9,1,1.0,-1,749,0
+"1 Morningside Dr, New York, NY 10025",A3,1,1.0,-1,718,0
+"1 Morningside Dr, New York, NY 10025",A1,1,1.0,-1,612,0
+"1 Morningside Dr, New York, NY 10025",A11,1,1.0,-1,771,0
+"1 Morningside Dr, New York, NY 10025",A12,1,1.0,-1,804,0
+"1 Morningside Dr, New York, NY 10025",A13,1,1.0,-1,810,0
+"1 Morningside Dr, New York, NY 10025",A14,1,1.0,-1,820,0
+"1 Morningside Dr, New York, NY 10025",A4P,1,1.0,-1,718,0
+"1 Morningside Dr, New York, NY 10025",B1,2,2.0,6430,1061,0
+"1 Morningside Dr, New York, NY 10025",B6,2,2.0,6835,1298,0
+"1 Morningside Dr, New York, NY 10025",B4P,2,2.0,-1,1164,0
+"1 Morningside Dr, New York, NY 10025",B2,2,2.0,-1,1126,0
+"1 Morningside Dr, New York, NY 10025",B3,2,2.0,-1,1148,0
+"1 Morningside Dr, New York, NY 10025",B7,2,2.0,-1,1445,0
+"1 Morningside Dr, New York, NY 10025",C1,3,2.0,7590,1347,0
+"1 Morningside Dr, New York, NY 10025",C2P,3,2.0,-1,1443,0
+"1 Morningside Dr, New York, NY 10025",C1P,3,2.0,-1,1347,0
+"1 Morningside Dr, New York, NY 10025",C3P,3,2.0,-1,2827,0
+"160 W 22nd St, New York, NY 10011",1 bedroom 1 bath,1,1.0,-1,635,0
+"160 W 22nd St, New York, NY 10011",2 bedroom 2 bathroom,2,2.0,-1,1035,0
+"160 W 22nd St, New York, NY 10011",&nbsp,2,2.5,-1,1237,0
+"160 W 22nd St, New York, NY 10011",&nbsp,2,3.0,-1,1228,0
+"11 E 1st St, New York, NY 10003",S1-206-806-420sq,0,1.0,3687,420,1
+"11 E 1st St, New York, NY 10003",S1-211-811-and-212-812-513sq,0,1.0,4005,513,1
+"11 E 1st St, New York, NY 10003",A1-204-520sq-ter,1,1.0,5135,520,1
+"11 E 1st St, New York, NY 10003",A1-201-801-and-PH1-633sq,1,1.0,5310,633,1
+"11 E 1st St, New York, NY 10003",A1-320-820-742sq,1,1.0,5715,742,1
+"11 E 1st St, New York, NY 10003",A2-210-610-707sq,1,1.0,5920,707,1
+"11 E 1st St, New York, NY 10003",A1-221-754-ter,1,1.0,6083,759,1
+"11 E 1st St, New York, NY 10003",A1-2-605-723sq,1,1.0,6115,723,1
+"11 E 1st St, New York, NY 10003",B1-322-822-1078sq,2,2.0,7070,1078,1
+"11 E 1st St, New York, NY 10003",B1-PH22-1007sq,2,2.0,7125,1007,1
+"11 E 1st St, New York, NY 10003",B1-323-823-1261sq,2,2.0,7300,1261,1
+"11 E 1st St, New York, NY 10003",B2-604-1184sq-terrance,2,2.0,8370,1184,1
+"11 E 1st St, New York, NY 10003",B4-314-614-1387sq,2,2.0,8615,1387,1
+"11 E 1st St, New York, NY 10003",S1-207-441sq-ter,0,1.0,-1,441,0
+"11 E 1st St, New York, NY 10003",S1A-478sq,0,1.0,-1,478,0
+"11 E 1st St, New York, NY 10003",S1-205-805-493sq,0,1.0,-1,493,0
+"11 E 1st St, New York, NY 10003",S1-PH04,0,1.0,-1,514,0
+"11 E 1st St, New York, NY 10003",S2-201-567sq,0,1.0,-1,561,0
+"11 E 1st St, New York, NY 10003",S1-PH05-522sq,0,1.0,-1,522,0
+"11 E 1st St, New York, NY 10003",S1-208-808-431sq,0,1.0,-1,431,0
+"11 E 1st St, New York, NY 10003",S1-307-607-452sq,0,1.0,-1,452,0
+"11 E 1st St, New York, NY 10003",S1-707-807-452sq,0,1.0,-1,452,0
+"11 E 1st St, New York, NY 10003",S1-PH07-464sq,0,1.0,-1,464,0
+"11 E 1st St, New York, NY 10003",S1-PH08-468sq,0,1.0,-1,468,0
+"11 E 1st St, New York, NY 10003",S1-617-478sq,0,1.0,-1,478,0
+"11 E 1st St, New York, NY 10003",S1-PH06-490sq,0,1.0,-1,490,0
+"11 E 1st St, New York, NY 10003",A1-412-612-667sq,1,1.0,5840,667,0
+"11 E 1st St, New York, NY 10003",S3-301-601-PH01,1,1.0,-1,581,0
+"11 E 1st St, New York, NY 10003",A1-304-804-520sq,1,1.0,-1,520,0
+"11 E 1st St, New York, NY 10003",A1A-607sq,1,1.0,-1,607,0
+"11 E 1st St, New York, NY 10003",A1-224-824-632sq,1,1.0,-1,624,0
+"11 E 1st St, New York, NY 10003",A2A-667sq,1,1.0,-1,667,0
+"11 E 1st St, New York, NY 10003",A3A-677sq,1,1.0,-1,667,0
+"11 E 1st St, New York, NY 10003",A1-202-802-676sq,1,1.0,-1,676,0
+"11 E 1st St, New York, NY 10003",A1-PH02-676sq,1,1.0,-1,676,0
+"11 E 1st St, New York, NY 10003",A1-203-678sq-ter,1,1.0,-1,678,0
+"11 E 1st St, New York, NY 10003",A1-303-803-678sq,1,1.0,-1,678,0
+"11 E 1st St, New York, NY 10003",A1-PH03-685sq,1,1.0,-1,678,0
+"11 E 1st St, New York, NY 10003",A1-PH21-691sq,1,1.0,-1,691,0
+"11 E 1st St, New York, NY 10003",A1-217-712-698sq,1,1.0,-1,698,0
+"11 E 1st St, New York, NY 10003",A1-PH17-PH20-698sq,1,1.0,-1,699,0
+"11 E 1st St, New York, NY 10003",A1-PH16-699sq,1,1.0,-1,699,0
+"11 E 1st St, New York, NY 10003",A1-215-815-712sq,1,1.0,-1,702,0
+"11 E 1st St, New York, NY 10003",A1-216-816-702sq,1,1.0,-1,702,0
+"11 E 1st St, New York, NY 10003",A1-217-817-and-218-818-701sq,1,1.0,-1,702,0
+"11 E 1st St, New York, NY 10003",A1-219-819-701sq,1,1.0,-1,702,0
+"11 E 1st St, New York, NY 10003",A1-813-698sq,1,1.0,-1,702,0
+"11 E 1st St, New York, NY 10003",A1-PH10-696sq-ter,1,1.0,-1,702,0
+"11 E 1st St, New York, NY 10003",A1-PH15-915sq,1,1.0,-1,715,0
+"11 E 1st St, New York, NY 10003",A3-311-611-721sq,1,1.0,-1,721,0
+"11 E 1st St, New York, NY 10003",A4-302-602-PH02-730sq,1,1.0,-1,730,0
+"11 E 1st St, New York, NY 10003",A5-202-730sq-terrance,1,1.0,-1,730,0
+"11 E 1st St, New York, NY 10003",A7-203-737sq-terrance,1,1.0,-1,737,0
+"11 E 1st St, New York, NY 10003",A6-303-603-PH03,1,1.0,-1,737,0
+"11 E 1st St, New York, NY 10003",A1-PH25-740sq,1,1.0,-1,740,0
+"11 E 1st St, New York, NY 10003",A1-220-747-ter,1,1.0,-1,747,0
+"11 E 1st St, New York, NY 10003",A8-209-609-747sq,1,1.0,-1,747,0
+"11 E 1st St, New York, NY 10003",A4A-749sq,1,1.0,-1,749,0
+"11 E 1st St, New York, NY 10003",A9-215-749sq-terrance,1,1.0,-1,749,0
+"11 E 1st St, New York, NY 10003",A10-PH15-749sq,1,1.0,-1,749,0
+"11 E 1st St, New York, NY 10003",A1-321-821-759sq,1,1.0,-1,759,0
+"11 E 1st St, New York, NY 10003",A11-PH07-774sq-terrance,1,1.0,-1,774,0
+"11 E 1st St, New York, NY 10003",A12-PH05-777sq-terrance,1,1.0,-1,777,0
+"11 E 1st St, New York, NY 10003",A13-PH04-894sq-terrance,1,1.0,-1,894,0
+"11 E 1st St, New York, NY 10003",B1-309-809-1104,2,2.0,7155,1104,0
+"11 E 1st St, New York, NY 10003",B1-226-765sq-ter,2,1.0,-1,765,0
+"11 E 1st St, New York, NY 10003",B1-326-626-768sq,2,1.0,-1,768,0
+"11 E 1st St, New York, NY 10003",B1-726-826-786sq,2,1.0,-1,768,0
+"11 E 1st St, New York, NY 10003",B1-101-1031sq-ter,2,1.0,-1,1032,0
+"11 E 1st St, New York, NY 10003",B1-225-824-632sq,2,2.0,-1,896,0
+"11 E 1st St, New York, NY 10003",B1-PH24-958sq,2,2.0,-1,958,0
+"11 E 1st St, New York, NY 10003",B1-PH11-1062-ter,2,2.0,-1,1062,0
+"11 E 1st St, New York, NY 10003",B1-222-1078sq-ter,2,2.0,-1,1078,0
+"11 E 1st St, New York, NY 10003",B7-216-1085sq,2,2.0,-1,1085,0
+"11 E 1st St, New York, NY 10003",B8-PH16-1085sq,2,2.0,-1,1085,0
+"11 E 1st St, New York, NY 10003",B1-210-810-1089sq,2,2.0,-1,1089,0
+"11 E 1st St, New York, NY 10003",B1-209-1104sq-ter,2,2.0,-1,1104,0
+"11 E 1st St, New York, NY 10003",B1-PH06-1138sq-terrance,2,2.0,-1,1138,0
+"11 E 1st St, New York, NY 10003",B1-PH09-1176-ter,2,2.0,-1,1176,0
+"11 E 1st St, New York, NY 10003",B1A-1184sq,2,2.0,-1,1183,0
+"11 E 1st St, New York, NY 10003",B3-PH08-1215sq-terrance,2,2.0,-1,1215,0
+"11 E 1st St, New York, NY 10003",B1-214-814-1230sq,2,2.0,-1,1230,0
+"11 E 1st St, New York, NY 10003",B1-223-1261sq-ter,2,2.0,-1,1261,0
+"11 E 1st St, New York, NY 10003",B1-102-1335sq-ter,2,2.0,-1,1335,0
+"11 E 1st St, New York, NY 10003",B5-208-1538sq,2,2.0,-1,1538,0
+"11 E 1st St, New York, NY 10003",B6-308-608-1539sq,2,2.0,-1,1539,0
+"11 E 1st St, New York, NY 10003",B1-PH23-1700sq-ter,2,2.0,-1,1700,0
+"149 E 39th St, New York, NY 10016",studio,0,1.0,4500,400,1
+"149 E 39th St, New York, NY 10016",one bedroom suite exec,1,1.0,5450,700,1
+"149 E 39th St, New York, NY 10016",Luxury one bedroom suite,1,1.0,6000,700,1
+"149 E 39th St, New York, NY 10016",2 bedroom suite,2,2.0,11000,1000,1
+"242 W 53rd St, New York, NY 10019",42B,0,1.0,4275,525,1
+"242 W 53rd St, New York, NY 10019",27H,1,1.0,4175,529,1
+"242 W 53rd St, New York, NY 10019",27I,1,1.0,4225,541,1
+"242 W 53rd St, New York, NY 10019",29D,1,1.0,4450,619,1
+"242 W 53rd St, New York, NY 10019",17G,1,1.0,4545,683,1
+"242 W 53rd St, New York, NY 10019",40C,1,1.0,4895,632,1
+"242 W 53rd St, New York, NY 10019",26F,1,1.0,4950,659,1
+"242 W 53rd St, New York, NY 10019",40F,1,1.0,5450,654,1
+"242 W 53rd St, New York, NY 10019",27A,2,2.0,6475,815,1
+"242 W 53rd St, New York, NY 10019",50A,3,2.0,9500,1199,1
+"242 W 53rd St, New York, NY 10019",52A,3,2.0,9795,1199,1
+"242 W 53rd St, New York, NY 10019",25J,1,1.0,5225,649,0
+"242 W 53rd St, New York, NY 10019",42D,2,2.0,7295,973,0
+"242 W 53rd St, New York, NY 10019",55E,2,2.0,8095,1107,0
+"242 W 53rd St, New York, NY 10019",61A,3,3.0,17750,1605,0
+"280 Park Ave S, New York, NY 10010",,1,1.0,5795,748,1
+"280 Park Ave S, New York, NY 10010",K-Line,1,1.0,5795,715,1
+"280 Park Ave S, New York, NY 10010",,1,1.0,4895,715,0
+"9 W 31st St, New York, NY 10001",6D,1,1.0,4230,600,1
+"9 W 31st St, New York, NY 10001",18G,1,1.0,4278,600,1
+"9 W 31st St, New York, NY 10001",14F,1,1.0,4322,600,1
+"9 W 31st St, New York, NY 10001",,1,1.0,4450,-1,1
+"9 W 31st St, New York, NY 10001",30B,2,2.0,7014,1100,1
+"9 W 31st St, New York, NY 10001",28C,1,1.0,4375,600,0
+"9 W 31st St, New York, NY 10001",35B,2,2.0,7014,1100,0
+"188 Ludlow St, New York, NY 10002",D Line,0,1.0,3610,442,1
+"188 Ludlow St, New York, NY 10002",One Bedroom,1,1.0,4875,550,0
+"4861-4881 Broadway, New York, NY 10034",-1,1,1.0,1827,750,0
+"326 E 117th St, New York, NY 10035",-1,1,1.0,1962,-1,0
+"888 Main St, New York, NY 10044",Studio-S03,0,1.0,4536,500,1
+"888 Main St, New York, NY 10044",1 Bed/1 Bath-A02,1,1.0,4052,590,1
+"888 Main St, New York, NY 10044",1 Bed/1 Bath-A08,1,1.0,4116,659,1
+"888 Main St, New York, NY 10044",1 Bed/1 Bath-A04,1,1.0,3968,607,1
+"888 Main St, New York, NY 10044",1 Bed/1 Bath-A03,1,1.0,4125,595,1
+"888 Main St, New York, NY 10044",2 Bed/2 Bath-B07,2,2.0,6218,871,1
+"888 Main St, New York, NY 10044",2 Bed/2 Bath-B11,2,2.0,6229,1003,1
+"888 Main St, New York, NY 10044",2 Bed/2 Bath-B10,2,2.0,5723,998,1
+"888 Main St, New York, NY 10044",2 Bed/2 Bath-B05,2,2.0,5791,851,1
+"888 Main St, New York, NY 10044",3 Bed/2 Bath-C03,3,2.0,7187,1316,1
+"888 Main St, New York, NY 10044",2 Bed/1 Bath-B01,2,1.0,5350,822,0
+"888 Main St, New York, NY 10044",2 Bed/1 Bath-B04,2,1.0,5651,990,0
+"888 Main St, New York, NY 10044",2 Bed/2 Bath-B08,2,2.0,5980,915,0
+"888 Main St, New York, NY 10044",1 Bed/1 Bath-A07,1,1.0,4049,661,0
+"888 Main St, New York, NY 10044",3 Bed/2 Bath-C04,3,2.0,7060,1361,0
+"888 Main St, New York, NY 10044",1 Bed/1 Bath-A05,1,1.0,4146,618,0
+"888 Main St, New York, NY 10044",2 Bed/2 Bath-B12,2,2.0,5856,1058,0
+"888 Main St, New York, NY 10044",Studio-S01,0,1.0,-1,423,0
+"888 Main St, New York, NY 10044",Studio-S04,0,1.0,-1,540,0
+"888 Main St, New York, NY 10044",Studio-S05,0,1.0,-1,584,0
+"888 Main St, New York, NY 10044",Studio-S01 ADU,0,1.0,-1,423,0
+"888 Main St, New York, NY 10044",Studio-S02 ADU,0,1.0,-1,453,0
+"888 Main St, New York, NY 10044",Studio-S03 ADU,0,1.0,-1,500,0
+"888 Main St, New York, NY 10044",Studio-S04 ADU,0,1.0,-1,540,0
+"888 Main St, New York, NY 10044",Studio-S05 ADU,0,1.0,-1,584,0
+"888 Main St, New York, NY 10044",1 Bed/1 Bath-A04 ADU,1,1.0,-1,610,0
+"888 Main St, New York, NY 10044",1 Bed/1 Bath-A01,1,1.0,-1,561,0
+"888 Main St, New York, NY 10044",1 Bed/1 Bath-A03 ADU,1,1.0,-1,595,0
+"888 Main St, New York, NY 10044",1 Bed/1 Bath-AD01 ADU,1,1.0,-1,610,0
+"888 Main St, New York, NY 10044",1 Bed/1 Bath-A05 ADU,1,1.0,-1,618,0
+"888 Main St, New York, NY 10044",1 Bed/1 Bath-A06,1,1.0,-1,631,0
+"888 Main St, New York, NY 10044",1 Bed/1 Bath-A09,1,1.0,-1,666,0
+"888 Main St, New York, NY 10044",1 Bed/1 Bath-A01 ADU,1,1.0,-1,561,0
+"888 Main St, New York, NY 10044",1 Bed/1 Bath-A02 ADU,1,1.0,-1,576,0
+"888 Main St, New York, NY 10044",2 Bed/2 Bath-B06,2,2.0,-1,870,0
+"888 Main St, New York, NY 10044",2 Bed/1 Bath-B02,2,1.0,-1,870,0
+"888 Main St, New York, NY 10044",2 Bed/1 Bath-B03,2,1.0,-1,875,0
+"888 Main St, New York, NY 10044",2 Bed/2 Bath-B09 ADU,2,2.0,-1,973,0
+"888 Main St, New York, NY 10044",3 Bed/2 Bath-C01,3,2.0,-1,1130,0
+"888 Main St, New York, NY 10044",3 Bed/2 Bath-C02 ADU,3,2.0,-1,1218,0
+"189 W 89th St, New York, NY 10024",Studio E1,0,1.0,3504,479,1
+"189 W 89th St, New York, NY 10024",1 Bedroom A,1,1.0,4514,699,1
+"189 W 89th St, New York, NY 10024",2 Bedroom D1,2,2.0,6314,949,1
+"189 W 89th St, New York, NY 10024",1 Bedroom J,1,1.0,4468,672,0
+"189 W 89th St, New York, NY 10024","1 Bedroom W, U, P, N",1,1.0,4465,657,0
+"189 W 89th St, New York, NY 10024",1 Bedroom N1,1,1.0,4335,606,0
+"189 W 89th St, New York, NY 10024","Studio N, K, H, G",0,1.0,3282,470,0
+"189 W 89th St, New York, NY 10024",Studio L,0,1.0,3134,464,0
+"189 W 89th St, New York, NY 10024",Studio E3,0,1.0,3065,554,0
+"189 W 89th St, New York, NY 10024",Studio B,0,1.0,3246,550,0
+"189 W 89th St, New York, NY 10024",Studio E2,0,1.0,3187,499,0
+"189 W 89th St, New York, NY 10024",Studio H,0,1.0,3649,571,0
+"189 W 89th St, New York, NY 10024",Studio U,0,1.0,-1,657,0
+"189 W 89th St, New York, NY 10024","1 Bedroom T, Q, N",1,1.0,4048,651,0
+"189 W 89th St, New York, NY 10024","1 Bedroom R, W, P, N",1,1.0,4122,631,0
+"189 W 89th St, New York, NY 10024","1 Bedroom G, H",1,1.0,4104,592,0
+"189 W 89th St, New York, NY 10024",1 Bedroom L1,1,1.0,4477,693,0
+"189 W 89th St, New York, NY 10024",1 Bedroom B,1,1.0,4154,614,0
+"189 W 89th St, New York, NY 10024",1 Bedroom L2,1,1.0,4478,725,0
+"189 W 89th St, New York, NY 10024",1 Bedroom N2,1,1.0,-1,751,0
+"189 W 89th St, New York, NY 10024",1 Bedroom D,1,1.0,-1,755,0
+"189 W 89th St, New York, NY 10024",1 Bedroom K,1,1.0,-1,824,0
+"189 W 89th St, New York, NY 10024",2 Bedroom E2,2,2.0,6124,878,0
+"189 W 89th St, New York, NY 10024",2 Bedroom R,2,2.0,6043,963,0
+"189 W 89th St, New York, NY 10024",2 Bedroom C2,2,2.0,6507,1060,0
+"189 W 89th St, New York, NY 10024",2 Bedroom JF,2,2.0,6559,1004,0
+"189 W 89th St, New York, NY 10024","2 Bedroom S, P, M",2,2.0,6702,1151,0
+"189 W 89th St, New York, NY 10024",2 Bedroom C1,2,2.0,6569,984,0
+"189 W 89th St, New York, NY 10024",2 Bedroom D2,2,2.0,6731,1126,0
+"189 W 89th St, New York, NY 10024",2 Bedroom C3,2,2.0,-1,1078,0
+"189 W 89th St, New York, NY 10024",3 Bedroom,3,3.0,10902,1600,0
+"235 W 56th St, New York, NY 10019",18F,1,1.0,4050,630,1
+"235 W 56th St, New York, NY 10019",28G,1,1.0,4175,650,1
+"281 Edgecombe Ave, New York, NY 10031",-1,2,1.0,2400,976,1
+"281 Edgecombe Ave, New York, NY 10031",-1,4,1.5,3200,-1,1
+"430-434 E 72nd St, New York, NY 10021",STUDIO,0,1.0,1940,327,0
+"501 1/2 E 83rd St, New York, NY 10028",-1,0,1.0,2100,535,0
+"501 1/2 E 83rd St, New York, NY 10028",-1,1,1.0,2300,642,0
+"501 1/2 E 83rd St, New York, NY 10028",-1,2,1.0,2700,906,0
+"501 1/2 E 83rd St, New York, NY 10028",-1,3,1.0,3024,1159,0
+"401 E 80th St, New York, NY 10075",JR. 4,1,1.5,4800,900,0
+"126 E 27th St, New York, NY 10016",-1,1,1.0,3495,825,1
+"113 E 31st St, New York, NY 10016",-1,2,1.0,3695,850,1
+"164 Stanton St, New York, NY 10002",-1,3,1.0,5695,1,1
+"166 2nd Ave, New York, NY 10003",-1,0,1.0,3250,415,1
+"1833 Adam Clayton Powell Jr Blvd, New York, NY 10026",-1,1,1.0,2100,750,1
+"169 Morningside Ave, New York, NY 10027",-1,1,1.0,2450,700,1
+"121 Madison Ave, New York, NY 10016",-1,4,2.0,6995,1,1
+"7 Gold St, New York, NY 10038",-1,0,1.0,3000,500,1
+"145 4th Ave, New York, NY 10003",-1,1,1.0,4750,705,1
+"25 E 10th St, New York, NY 10003",-1,0,1.0,3700,500,1
+"117 W 116th St, New York, NY 10026",-1,2,1.0,2850,900,1
+"456 W 37th St, New York, NY 10018",-1,2,1.0,3950,750,1
+"1858 Adam Clayton Powell Jr Blvd, New York, NY 10026",-1,2,1.0,2900,900,1
+"612 W 188th St, New York, NY 10040",-1,3,1.0,2700,1000,1
+"45 Tiemann Pl, New York, NY 10027",-1,1,1.0,2600,500,1
+"108 Park Terrace E, New York, NY 10034",-1,1,1.0,1650,575,1
+"815 W 180th St, New York, NY 10033",-1,2,1.0,2700,775,1
+"815 W 181st St, New York, NY 10033",-1,3,2.0,3700,1000,1
+"345 E 116th St, New York, NY 10029",-1,3,2.0,3390,900,1
+"226 E 25th St, New York, NY 10010",-1,2,1.0,3995,970,0
+"655 2nd Ave, New York, NY 10016",-1,0,1.0,2495,550,1
+"2133 3rd Ave, New York, NY 10035",-1,3,1.0,2850,1030,1
+"236 W 135th St, New York, NY 10030",-1,1,1.0,2000,550,1
+"118 Post Ave, New York, NY 10034",-1,0,1.0,1650,450,1
+"9 Seaman Ave, New York, NY 10034",-1,1,1.0,1825,650,1
+"110 Post Ave, New York, NY 10034",-1,1,1.0,1800,600,1
+"4730 Broadway, New York, NY 10040",-1,1,1.0,1775,640,1
+"301 E 47th St, New York, NY 10017",-1,4,2.0,8200,1000,1
+"575 W 175th St, New York, NY 10033",-1,1,1.0,1800,600,1
+"1306 St Nicholas Ave, New York, NY 10033",-1,2,1.0,2200,700,1
+"226 E 70th St, New York, NY 10021",-1,6,4.0,7995,1800,1
+"4860 Broadway, New York, NY 10034",-1,1,1.0,1700,600,1
+"138 Haven Ave, New York, NY 10032",-1,2,1.0,2200,900,1
+"628 Riverside Dr, New York, NY 10031",-1,2,1.0,2500,800,1
+"620 Lenox Ave, New York, NY 10037",-1,1,1.0,2350,750,1
+"630 Lenox Ave, New York, NY 10037",-1,3,2.0,3300,1000,1
+"2300 5th Ave, New York, NY 10037",-1,0,1.0,1905,600,1
+"45 W 139th St, New York, NY 10037",-1,0,1.0,1871,600,1
+"60 W 142nd St, New York, NY 10037",-1,2,1.0,2812,950,1
+"105 Convent Ave, New York, NY 10027",-1,2,1.0,2600,900,1
+"974 St Nicholas Ave, New York, NY 10032",-1,4,1.0,3400,1000,1
+"516 W 136th St, New York, NY 10031",-1,3,1.0,3000,900,1
+"505 W 135th St, New York, NY 10031",-1,3,1.0,2700,900,1
+"174 W 137th St, New York, NY 10030",-1,3,1.0,2650,900,1
+"510 W 148th St, New York, NY 10031",-1,3,1.0,2650,900,1
+"277 W 150th St, New York, NY 10039",-1,3,1.0,2383,800,1
+"468 W 153rd St, New York, NY 10031",-1,1,1.0,1800,650,1
+"1425 York Ave, New York, NY 10021",-1,1,1.0,2225,450,1
+"530 W 159th St, New York, NY 10032",-1,0,1.0,1900,600,1
+"80 Mulberry St, New York, NY 10013",-1,2,1.0,2850,700,1
+"118 W 83rd St, New York, NY 10024",-1,0,1.0,1800,500,1
+"489 Columbus Ave, New York, NY 10024",-1,0,1.0,1850,500,1
+"4960 Broadway, New York, NY 10034",-1,0,1.0,1700,500,1
+"260 W 27th St, New York, NY 10001",-1,0,1.0,2190,600,1
+"529 W 179th St, New York, NY 10033",-1,4,1.0,3350,1000,1
+"701 W 177th St, New York, NY 10033",-1,3,1.0,3550,1234,1
+"600 W 136th St, New York, NY 10031",-1,5,2.0,5000,1200,1
+"30 Seaman Ave, New York, NY 10034",-1,2,1.0,2300,850,1
+"55 Payson Ave, New York, NY 10034",-1,0,1.0,1750,500,1
+"153 Vermilyea Ave, New York, NY 10034",-1,1,1.0,1725,650,1
+"232 Sherman Ave, New York, NY 10034",-1,3,1.0,2400,900,1
+"514 W 213th St, New York, NY 10034",-1,1,1.0,1750,650,1
+"521 Isham St, New York, NY 10034",-1,1,1.0,1750,650,1
+"600 W 174th St, New York, NY 10033",-1,2,1.0,2200,850,1
+"612 W 178th St, New York, NY 10033",-1,1,1.0,1800,700,1
+"660 W 178th St, New York, NY 10033",-1,2,1.0,2200,900,1
+"65 Seaman Ave, New York, NY 10034",-1,2,1.0,2695,675,1
+"603 Academy St, New York, NY 10034",-1,2,1.0,2295,675,1
+"192 Bradhurst Ave, New York, NY 10039",-1,3,1.0,2650,900,1
+"267 Edgecombe Ave, New York, NY 10031",-1,1,1.0,1950,600,1
+"15 Park Pl, New York, NY 10007",-1,0,1.0,2900,600,1
+"300 W 110th St, New York, NY 10026",-1,2,1.0,4150,975,1
+"450 W 149th St, New York, NY 10031",-1,3,1.0,3150,1200,1
+"172 Sherman Ave, New York, NY 10034",-1,1,1.0,1525,315,1
+"17 Avenue C, New York, NY 10009",-1,2,2.0,4200,1,1
+"22 Avenue C, New York, NY 10009",-1,3,1.0,4200,1,1
+"1761 2nd Ave, New York, NY 10128",-1,4,2.0,5200,1500,1
+"419 E 73rd St, New York, NY 10021",-1,2,1.0,2750,800,1
+"320 E 39th St, New York, NY 10016",-1,2,1.5,4895,800,1
+"389 2nd Ave, New York, NY 10010",-1,1,1.0,2850,600,0
+"233 E 38th St, New York, NY 10016",-1,4,2.0,7000,1350,1
+"404 E 75th St, New York, NY 10021",-1,0,1.0,1900,400,1
+"412 W 22nd St, New York, NY 10011",-1,0,1.0,2700,300,1
+"1132 1st Avenue, New York, NY 10065",-1,0,1.0,1800,300,1
+"323 W 42nd St, New York, NY 10036",-1,2,1.0,2750,800,1
+"120 E 7th St, New York, NY 10009",-1,4,1.5,6180,1500,1
+"401 E 32nd St, New York, NY 10016",-1,3,2.0,5600,1250,1
+"240 W 48th St, New York, NY 10036",-1,3,2.0,6000,950,1
+"9 E 94th St, New York, NY 10128",-1,6,6.0,57000,7250,1
+"222 E 44th St, New York, NY 10017",-1,2,2.0,7500,1000,1
+"30 Harrison St, New York, NY 10013",-1,0,1.0,3000,500,1
+"275 Fort Washington Ave, New York, NY 10032",-1,0,1.0,1725,750,1
+"620 W 182nd St, New York, NY 10033",-1,3,1.0,2450,1250,1
+"2477 Broadway, New York, NY 10025",-1,5,2.5,8200,2000,1
+"550 W 52nd St, New York, NY 10019",-1,1,1.0,3762,600,1
+"636 1st Avenue, New York, NY 10016",-1,2,2.0,7500,850,1
+"1378 York Ave, New York, NY 10021",-1,2,1.0,2995,900,1
+"305 E 47th St, New York, NY 10017",-1,2,1.0,4395,900,1
+"446 E 78th St, New York, NY 10075",-1,1,1.0,2095,490,1
+"98 Christopher St, New York, NY 10014",-1,1,1.0,2595,510,1
+"414 E 84th St, New York, NY 10028",-1,0,1.0,2195,490,1
+"38 Market St, New York, NY 10002",-1,4,3.0,6995,1800,1
+"371 Wadsworth Ave, New York, NY 10040",-1,2,1.0,2100,800,1
+"404 E 63rd St, New York, NY 10065",-1,2,1.0,2995,590,1
+"157 E 81st St, New York, NY 10028",-1,3,2.0,8195,1300,0
+"2546 Adam Clayton Powell Jr Blvd, New York, NY 10039",-1,2,1.0,2372,850,1
+"285 St Nicholas Ave, New York, NY 10027",-1,4,2.0,4595,1000,1
+"121 Madison St, New York, NY 10002",-1,3,2.0,6795,1210,1
+"186 Claremont Ave, New York, NY 10027",-1,4,1.0,3995,1000,1
+"529 W 151st St, New York, NY 10031",-1,3,2.0,2895,1250,1
+"3139 Broadway, New York, NY 10027",-1,2,1.0,2495,500,1
+"560 Isham St, New York, NY 10034",-1,1,1.0,1675,600,1
+"635 W 170th St, New York, NY 10032",-1,2,1.0,2050,800,1
+"500 W 148th St, New York, NY 10031",-1,2,1.0,2380,900,1
+"148 W 127th St, New York, NY 10027",-1,1,1.0,3200,1300,1
+"540 Fort Washington Ave, New York, NY 10033",-1,3,1.0,2700,1000,1
+"115 E 92nd St, New York, NY 10128",-1,1,1.0,4300,750,1
+"35 Morningside Ave, New York, NY 10026",-1,1,1.0,2200,700,1
+"145 Edgecombe Ave, New York, NY 10030",-1,3,1.0,2750,900,1
+"503 W 169th St, New York, NY 10032",-1,2,1.0,2015,900,1
+"516 W 156th St, New York, NY 10032",-1,3,1.0,2600,900,1
+"37 W 54th St, New York, NY 10019",-1,1,1.0,2695,720,1
+"426 W 49th St, New York, NY 10019",-1,1,1.0,2795,890,1
+"876 Lexington Ave, New York, NY 10065",-1,1,1.0,2595,875,0
+"113 W 117th St, New York, NY 10026",-1,2,1.0,3250,900,1
+"2164 2nd Ave, New York, NY 10029",-1,3,1.0,2995,700,1
+"304 W 151st St, New York, NY 10039",-1,2,1.0,1895,550,1
+"301 E 34th St, New York, NY 10016",-1,3,2.0,6000,1000,1
+"508 W 37th St, New York, NY 10018",-1,2,1.0,3650,725,1
+"611 W 177th St, New York, NY 10033",-1,3,1.0,3100,880,1
+"37 1/2 Allen St, New York, NY 10002",-1,2,1.0,2695,600,1
+"353 W 44th St, New York, NY 10036",-1,1,1.0,2250,550,0
+"158 Hester St, New York, NY 10013",-1,2,2.0,5000,822,1
+"620 W 42nd St, New York, NY 10036",-1,2,2.0,5600,1050,0
+"95 Christopher St, New York, NY 10014",-1,0,1.0,3500,500,1
+"107 W 89th St, New York, NY 10024",-1,3,3.0,12000,2000,1
+"223 Mott St, New York, NY 10012",-1,1,1.0,3500,600,1
+"159 E 80th St, New York, NY 10075",-1,4,3.5,24750,2864,1
+"50 Thompson St, New York, NY 10012",-1,1,1.0,7500,1100,1
+"26 W 27th St, New York, NY 10001",-1,3,2.0,7195,1358,1
+"256 E 33rd St, New York, NY 10016",-1,0,1.0,2995,620,1
+"313 2nd Ave, New York, NY 10003",-1,3,2.0,5450,1200,1
+"105 Edgecombe Ave, New York, NY 10030",-1,2,1.0,2200,750,1
+"300 Albany St, New York, NY 10280",-1,0,1.0,3200,544,0
+"686 W 204th St, New York, NY 10034",-1,1,1.0,1875,600,1
+"530 E 89th St, New York, NY 10128",-1,1,1.0,2950,800,1
+"304 Greenwich St, New York, NY 10006",-1,3,1.5,5400,800,1
+"314 W 94th St, New York, NY 10025",-1,1,2.0,3500,900,1
+"58 E 130th St, New York, NY 10037",-1,1,1.0,2000,800,1
+"218 W 101st St, New York, NY 10025",-1,0,1.0,2400,1,1
+"34 St Marks Pl, New York, NY 10003",-1,2,2.0,3900,750,1
+"32 St Marks Pl, New York, NY 10003",-1,2,1.5,3600,650,1
+"569 W 170th St, New York, NY 10032",-1,3,1.0,2950,800,1
+"231 W 96th St, New York, NY 10025",-1,5,2.5,5995,2000,1
+"231 E 58th St, New York, NY 10022",-1,3,2.0,5300,1200,1
+"322 E 59th St, New York, NY 10022",-1,1,1.0,2000,550,1
+"122 Macdougal St, New York, NY 10012",-1,1,1.0,2350,600,1
+"318 E 59th St, New York, NY 10022",-1,1,1.0,2000,650,1
+"457 W 49th St, New York, NY 10019",-1,2,1.0,3100,1000,1
+"404 E 83rd St, New York, NY 10028",-1,2,1.0,3250,850,1
+"320 E 71st St, New York, NY 10021",-1,4,2.0,6500,1250,1
+"11 E 88th St, New York, NY 10128",-1,2,1.5,5695,1,1
+"160 Sherman Ave, New York, NY 10034",-1,2,1.0,1850,431,1
+"491 Columbus Ave, New York, NY 10024",-1,0,1.0,1850,550,1
+"220 W 122nd St, New York, NY 10027",-1,1,1.0,2110,1,1
+"212 Lafayette St, New York, NY 10012",-1,1,1.0,3850,1,1
+"540 E 5th St, New York, NY 10009",-1,2,1.0,3195,700,0
+"211 W 80th St, New York, NY 10024",-1,1,1.0,2795,700,1
+"595 W 207th St, New York, NY 10034",-1,1,1.0,1750,650,1
+"4996 Broadway, New York, NY 10034",-1,1,1.0,1750,600,1
+"656 W 171st St, New York, NY 10032",-1,2,1.0,2275,5,1
+"725 W 172nd St, New York, NY 10032",-1,1,1.0,1795,700,1
+"647 W 172nd St, New York, NY 10032",-1,2,1.0,2250,960,1
+"201 Sherman Ave, New York, NY 10034",-1,2,1.0,2195,1,1
+"199 Sherman Ave, New York, NY 10034",-1,2,1.0,2500,650,1
+"212 Grand St, New York, NY 10013",-1,2,1.0,4900,850,1
+"78-80 Mulberry St, New York, NY 10013",-1,2,1.0,2900,700,1
+"1763 2nd Ave, New York, NY 10128",-1,4,1.5,5200,1200,1
+"551 Main St, New York, NY 10044",-1,4,1.5,4580,1250,1
+"1364 Lexington Ave, New York, NY 10128",-1,1,1.0,3075,500,1
+"135 E 54th St, New York, NY 10022",-1,1,1.0,3000,539,1
+"2115 3rd Ave, New York, NY 10029",-1,2,1.0,2175,650,1
+"333 Pearl St, New York, NY 10038",-1,1,1.0,3500,700,0
+"414 W 121st St, New York, NY 10027",-1,3,1.0,3900,1070,1
+"28 W 47th St, New York, NY 10036",-1,0,1.0,2600,581,1
+"57 Thompson St, New York, NY 10012",-1,0,1.0,2950,300,1
+"240 E 26th St, New York, NY 10010",-1,1,1.0,4500,500,1
+"45 W 132nd St, New York, NY 10037",-1,2,2.0,3225,1050,1
+"168 Ludlow St, New York, NY 10002",-1,1,1.0,2750,575,1
+"516 E 12th St, New York, NY 10009",-1,3,2.5,5000,900,1
+"456 W 57th St, New York, NY 10019",-1,5,2.0,6600,1500,1
+"245 E 60th St, New York, NY 10022",-1,2,1.0,4300,800,1
+"517 Manhattan Ave, New York, NY 10027",-1,1,1.0,2100,700,0
+"162 Orchard St, New York, NY 10002",-1,2,1.0,4300,800,0
+"221 1st Avenue, New York, NY 10003",-1,0,1.0,1995,600,1
+"422 W 57th St, New York, NY 10019",-1,1,1.0,2190,500,1
+"318 E 49th St, New York, NY 10017",-1,2,1.0,2590,700,1
+"164 E 33rd St, New York, NY 10016",-1,2,1.0,3195,700,1
+"1425 Amsterdam Ave, New York, NY 10027",-1,2,1.0,2350,900,1
+"535 W 43rd St, New York, NY 10036",-1,2,1.0,4350,850,1
+"267 W 121st St, New York, NY 10027",-1,1,1.0,2400,800,1
+"325 3rd Ave, New York, NY 10010",-1,2,1.0,3400,695,1
+"146 Orchard St, New York, NY 10002",-1,0,1.0,2525,400,1
+"618 W 142nd St, New York, NY 10031",-1,1,1.0,1995,1,1
+"101 W 77th St, New York, NY 10024",-1,0,1.0,2095,500,1
+"2090 Frederick Douglass Blvd, New York, NY 10026",-1,2,1.0,2521,650,1
+"24 Cornelia St, New York, NY 10014",-1,0,1.0,2595,300,0
+"212 E 47th St, New York, NY 10017",-1,1,1.0,3250,606,0
+"409 W 148th St, New York, NY 10031",-1,1,1.0,1900,900,1
+"550 W 45th St, New York, NY 10036",-1,1,1.0,4800,750,1
+"330 W 55th St, New York, NY 10019",-1,0,1.0,2195,350,1
+"99 John St, New York, NY 10038",-1,3,1.0,4600,950,1
+"79 Reade St, New York, NY 10007",-1,3,2.0,7800,1650,0
+"865 1st Avenue, New York, NY 10017",-1,0,1.0,3250,560,1
+"31 W 8th St, New York, NY 10011",-1,0,1.0,2290,500,1
+"371 W 126th St, New York, NY 10027",-1,1,1.0,2350,650,1
+"517 W 48th St, New York, NY 10036",-1,1,1.0,2020,600,1
+"608 W 139th St, New York, NY 10031",-1,4,1.0,3290,750,1
+"18 St Nicholas Ave, New York, NY 10026",-1,3,2.0,2750,900,1
+"64 W 108th St, New York, NY 10025",-1,1,1.0,2495,500,1
+"329 W 44th St, New York, NY 10036",-1,1,1.0,2095,500,1
+"555 10th Ave, New York, NY 10036",-1,1,1.0,2700,550,1
+"317 E 49th St, New York, NY 10017",-1,1,1.0,2025,500,1
+"449 W 22nd St, New York, NY 10011",-1,3,2.0,8695,1700,1
+"224 E 24th St, New York, NY 10010",-1,4,2.0,6250,1200,1
+"231 W 48th St, New York, NY 10036",-1,3,2.0,6000,1200,1
+"108 E 31st St, New York, NY 10016",-1,3,1.0,3900,850,1
+"18 W 48th St, New York, NY 10036",-1,1,1.5,4800,900,1
+"118 W 73rd St, New York, NY 10023",-1,1,1.0,2650,500,1
+"305 Amsterdam Ave, New York, NY 10023",-1,2,1.0,3695,750,1
+"182 E 2nd St, New York, NY 10009",-1,1,1.0,3150,500,1
+"342 W 48th St, New York, NY 10036",-1,0,1.0,2350,500,1
+"217 E 29th St, New York, NY 10016",-1,1,1.0,2175,500,1
+"135 E 17th St, New York, NY 10003",-1,2,1.0,3500,1,1
+"101 W 131st St, New York, NY 10027",-1,3,1.0,2999,950,1
+"8 Spruce St, New York, NY 10038",-1,2,2.0,7910,950,1
+"811 9th Ave, New York, NY 10019",-1,2,1.0,2995,800,1
+"47 W 68th St, New York, NY 10023",-1,0,1.0,1900,400,1
+"128 Thompson St, New York, NY 10012",-1,3,1.5,4799,1,1
+"207 E 14th St, New York, NY 10003",-1,0,1.0,2400,350,1
+"133 W 22nd St, New York, NY 10011",-1,3,3.0,24000,2248,1
+"465 W 51st St, New York, NY 10019",-1,1,1.0,2495,650,1
+"190 E 104th St, New York, NY 10029",-1,1,1.0,2800,600,1
+"300 E 34th St, New York, NY 10016",-1,2,1.0,4200,950,1
+"183 Malcolm X Blvd, New York, NY 10026",-1,2,1.0,3200,900,1
+"126 E 31st St, New York, NY 10016",-1,1,1.0,3195,600,1
+"403 E 69th St, New York, NY 10021",-1,1,1.0,2535,1100,1
+"209 W 108th St, New York, NY 10025",-1,4,1.0,4145,750,1
+"301 W 53rd St, New York, NY 10019",-1,1,1.0,4000,700,1
+"231 E 12th St, New York, NY 10003",-1,2,1.0,4250,748,1
+"10 St Marks Pl, New York, NY 10003",-1,1,1.0,2850,750,1
+"953 Amsterdam Ave, New York, NY 10025",-1,0,1.0,1720,400,1
+"400 W 55th St, New York, NY 10019",-1,1,1.0,3595,600,1
+"19 E 71st St, New York, NY 10021",-1,0,1.0,2170,400,1
+"10 Liberty Pl, New York, NY 10038",-1,2,1.0,3495,680,1
+"34 1/2 St Marks Pl, New York, NY 10003",-1,3,1.0,4700,700,1
+"520 W 48th St, New York, NY 10036",-1,1,1.0,3250,650,1
+"270 W 25th St, New York, NY 10001",-1,1,1.0,2995,600,1
+"324 E 19th St, New York, NY 10003",-1,2,1.0,3180,650,1
+"242 E 38th St, New York, NY 10016",-1,1,1.0,2800,1,1
+"149 W 120th St, New York, NY 10027",-1,3,2.0,6987,2200,1
+"315 7th Ave, New York, NY 10001",-1,0,1.0,3200,500,1
+"133 John St, New York, NY 10038",-1,3,1.0,4435,800,1
+"273 W 138th St, New York, NY 10030",-1,1,1.0,2300,500,1
+"291 Park Ave S, New York, NY 10010",-1,2,1.0,3995,999,0
+"77 W 104th St, New York, NY 10025",-1,1,1.0,2895,550,1
+"425 3rd Ave, New York, NY 10016",-1,3,1.0,4895,950,1
+"250 W 27th St, New York, NY 10001",-1,0,1.0,2195,1,1
+"209 W 102nd St, New York, NY 10025",-1,2,1.0,2795,700,1
+"116 E 91st St, New York, NY 10128",-1,1,1.0,2750,750,1
+"107 E 36th St, New York, NY 10016",-1,1,1.0,5680,1000,1
+"417 E 50th St, New York, NY 10022",-1,3,1.0,5100,850,1
+"1085 2nd Ave, New York, NY 10022",-1,2,2.0,7188,1100,1
+"415 E 37th St, New York, NY 10016",-1,2,2.0,7550,940,1
+"233 East 86th St, New York, NY 10028",-1,2,2.0,5490,1000,1
+"61 W 8th St, New York, NY 10011",-1,0,1.0,2400,50,1
+"346 E 49th St, New York, NY 10017",-1,2,2.0,5500,750,1
+"316 E 49th St, New York, NY 10017",-1,1,1.0,1895,500,1
+"2294 Frederick Douglass Blvd, New York, NY 10027",-1,2,1.0,2450,650,1
+"220 1st Avenue, New York, NY 10009",-1,0,1.0,1950,250,1
+"61 E 66th St, New York, NY 10065",-1,1,1.0,3900,1,1
+"161 Rivington St, New York, NY 10002",-1,2,1.0,2995,750,1
+"225 Front St, New York, NY 10038",-1,3,2.0,6350,1300,1
+"170 Vermilyea Ave, New York, NY 10034",-1,2,1.0,1950,800,1
+"219 E 96th St, New York, NY 10128",-1,2,2.0,4900,900,1
+"330 E 43rd St, New York, NY 10017",-1,1,1.0,3700,1,1
+"75 W 131st St, New York, NY 10037",-1,1,1.0,2200,800,1
+"400 W 42nd St, New York, NY 10036",-1,2,2.0,6500,552,1
+"176 E 3rd St, New York, NY 10009",-1,2,1.0,4195,1,1
+"440 W 42nd St, New York, NY 10036",-1,2,1.0,4000,900,0
+"566 W 162nd St, New York, NY 10032",-1,3,1.0,2995,900,1
+"255 W 93rd St, New York, NY 10025",-1,4,1.5,4845,950,1
+"90 St Nicholas Pl, New York, NY 10032",-1,3,1.0,2995,750,1
+"210 W 94th St, New York, NY 10025",-1,1,1.0,2895,800,1
+"254 E 3rd St, New York, NY 10009",-1,2,1.0,3220,650,1
+"3620 Broadway, New York, NY 10031",-1,2,1.0,2600,600,1
+"430 E 66th St, New York, NY 10065",-1,0,1.0,1850,550,1
+"203 E 82nd St, New York, NY 10028",-1,5,2.0,7250,1000,1
+"753 E 6th St, New York, NY 10009",-1,2,1.0,3100,1000,1
+"1727 Lexington Ave, New York, NY 10029",-1,1,1.0,2350,1000,1
+"1853 Adam Clayton Powell Jr Blvd, New York, NY 10026",-1,3,1.0,3000,1,1
+"54 W 106th St, New York, NY 10025",-1,1,1.0,2287,1,1
+"312 W 73rd St, New York, NY 10023",-1,1,1.0,2550,1,1
+"509 E 85th St, New York, NY 10028",-1,2,1.0,2575,1,1
+"65 W 106th St, New York, NY 10025",-1,2,1.0,2979,1,1
+"48 1st Avenue, New York, NY 10009",-1,1,1.0,3399,1000,1
+"304 E 62nd St, New York, NY 10065",-1,2,1.0,3450,1,1
+"234 W 52nd St, New York, NY 10019",-1,1,1.0,3250,1,1
+"311 E 25th St, New York, NY 10010",-1,2,1.0,3395,1,1
+"341 W 45th St, New York, NY 10036",-1,2,1.0,3795,1,1
+"561 10th Ave, New York, NY 10036",-1,2,1.0,3750,650,1
+"147 W 79th St, New York, NY 10024",-1,1,1.0,6200,1214,1
+"801 Amsterdam Ave, New York, NY 10025",-1,1,1.0,3700,1,1
+"401 W 24th St, New York, NY 10011",-1,3,1.0,4995,1200,1
+"540 W 44th St, New York, NY 10036",-1,3,2.0,5200,1100,1
+"331 E 50th St, New York, NY 10022",-1,3,1.0,4200,800,1
+"619 W 140th St, New York, NY 10031",-1,2,1.0,2750,900,1
+"2490 Frederick Douglass Blvd, New York, NY 10030",-1,2,1.0,2725,950,1
+"8 E 32nd St, New York, NY 10016",-1,3,1.0,5200,900,1
+"25 W 68th St, New York, NY 10023",-1,2,2.0,7300,852,1
+"148 W 68th St, New York, NY 10023",-1,1,1.0,2200,500,1
+"34 W 65th St, New York, NY 10023",-1,1,1.0,3275,800,1
+"240 E 38th St, New York, NY 10016",-1,1,1.0,2800,650,1
+"360 E 50th St, New York, NY 10022",-1,2,1.0,2725,700,1
+"205 W 102nd St, New York, NY 10025",-1,2,1.0,2800,700,1
+"402 W 148th St, New York, NY 10031",-1,2,1.0,2400,750,1
+"610 W 143rd St, New York, NY 10031",-1,2,1.0,2600,850,1
+"53 Hamilton Terrace, New York, NY 10031",-1,4,1.5,3500,1200,1
+"419 W 129th St, New York, NY 10027",-1,3,1.0,3000,1000,1
+"15 E 32nd St, New York, NY 10016",-1,2,1.0,3825,750,1
+"4 St Nicholas Terrace, New York, NY 10027",-1,4,2.0,4500,800,1
+"182 W 58th St, New York, NY 10019",-1,2,1.0,4975,900,1
+"43 W 10th St, New York, NY 10011",-1,0,1.0,2375,300,1
+"166 E 35th St, New York, NY 10016",-1,1,1.0,3750,700,1
+"27 E 67th St, New York, NY 10065",-1,1,1.0,3529,550,1
+"107 E 31st St, New York, NY 10016",-1,0,1.0,2250,350,1
+"151 Lexington Ave, New York, NY 10016",-1,1,1.0,3250,650,1
+"250 W 100th St, New York, NY 10025",-1,0,1.0,2100,500,1
+"152 E 17th St, New York, NY 10003",-1,1,1.0,3395,700,1
+"133 W 21st St, New York, NY 10011",-1,1,1.0,3450,600,1
+"88 5th Ave, New York, NY 10003",-1,0,1.0,3500,600,1
+"42 Avenue B, New York, NY 10009",-1,1,1.0,2782,500,1
+"160 W 73rd St, New York, NY 10023",-1,0,1.0,2700,500,1
+"111 Worth St, New York, NY 10013",-1,2,2.0,5262,1000,1
+"18 E 30th St, New York, NY 10016",-1,0,1.0,2100,300,1
+"315 W 34th St, New York, NY 10001",-1,2,1.0,3300,700,1
+"25 5th Ave, New York, NY 10003",-1,1,1.0,5700,800,1
+"313 6th Ave, New York, NY 10014",-1,2,1.0,5045,900,1
+"184 Lexington Ave, New York, NY 10016",-1,2,1.0,3300,750,1
+"345 E 5th St, New York, NY 10003",-1,2,1.0,3710,800,1
+"344 E 16th St, New York, NY 10003",-1,3,1.0,4100,1000,1
+"271 W 47th St, New York, NY 10036",-1,3,1.0,4100,1000,1
+"220 W 98th St, New York, NY 10025",-1,1,1.0,4650,1400,1
+"624 W 139th St, New York, NY 10031",-1,3,1.0,3400,1000,1
+"510 W 144th St, New York, NY 10031",-1,3,1.0,3595,950,1
+"348 W 145th St, New York, NY 10039",-1,0,1.0,1600,500,1
+"215 E 68th St, New York, NY 10065",-1,1,1.0,3600,750,1
+"1471 2nd Ave, New York, NY 10075",-1,1,1.0,3400,500,0
+"400 W 128th St, New York, NY 10027",-1,1,1.0,1925,600,1
+"572 W 141st St, New York, NY 10031",-1,3,1.0,2895,1050,1
+"260 Convent Ave, New York, NY 10031",-1,3,1.0,2950,1100,1
+"503 W 149th St, New York, NY 10031",-1,3,2.0,3200,1000,1
+"73 Vermilyea Ave, New York, NY 10034",-1,0,1.0,1425,370,1
+"116 Central Park S, New York, NY 10019",-1,0,1.0,3200,650,1
+"400 W 53rd St, New York, NY 10019",-1,2,1.0,3250,800,1
+"214 E 49th St, New York, NY 10017",-1,3,1.0,4200,800,1
+"150 W 51st St, New York, NY 10019",-1,1,1.0,3900,700,0
+"374 8th Ave, New York, NY 10001",-1,2,1.0,3000,1,1
+"301 E 48th St, New York, NY 10017",-1,2,1.0,4300,800,1
+"96 5th Ave, New York, NY 10003",-1,1,1.0,4900,685,1
+"20 5th Ave, New York, NY 10003",-1,1,1.0,6000,788,1
+"17 W 103rd St, New York, NY 10025",-1,2,1.0,3070,500,1
+"223 E 52nd St, New York, NY 10022",-1,1,2.0,2795,700,1
+"600 W 138th St, New York, NY 10031",-1,4,2.0,4350,1405,1
+"221 W 105th St, New York, NY 10025",-1,0,1.0,2250,400,1
+"476 Central Park West, New York, NY 10025",-1,3,1.0,4100,900,1
+"306 E 62nd St, New York, NY 10065",-1,2,1.0,3375,700,1
+"302 E 62nd St, New York, NY 10065",-1,1,1.0,2350,650,1
+"559 W 144th St, New York, NY 10031",-1,2,1.0,2600,650,1
+"321 E 48th St, New York, NY 10017",-1,1,1.0,3000,650,1
+"238 9th Ave, New York, NY 10001",-1,1,1.0,2869,542,1
+"276 Riverside Dr, New York, NY 10025",-1,1,1.0,2900,700,1
+"222 E 39th St, New York, NY 10016",-1,4,2.0,7000,1200,1
+"80 N Moore St, New York, NY 10013",-1,3,2.0,5295,1000,1
+"642 E 14th St, New York, NY 10009",-1,1,1.0,2095,400,1
+"502 W 213th St, New York, NY 10034",-1,1,1.0,1995,750,1
+"519 E 85th St, New York, NY 10028",-1,2,1.0,2750,700,0
+"443 W 37th St, New York, NY 10018",-1,2,1.0,3700,750,0
+"739 West End Ave, New York, NY 10025",-1,4,2.0,4950,1,1
+"145 Seaman Ave, New York, NY 10034",-1,2,1.0,2400,950,1
+"270 Fort Washington Ave, New York, NY 10032",-1,3,1.0,2850,1100,1
+"656 W 204th St, New York, NY 10034",-1,3,1.5,2800,1500,1
+"710 W 173rd St, New York, NY 10032",-1,1,1.0,1875,650,1
+"450 W 34th St, New York, NY 10001",-1,1,1.0,2800,800,1
+"203 E 116th St, New York, NY 10029",-1,3,1.0,3300,1300,1
+"1510 Lexington Ave, New York, NY 10029",-1,1,1.0,3550,770,1
+"29 Avenue C, New York, NY 10009",-1,1,1.0,3350,1,1
+"725 E 9th St, New York, NY 10009",-1,3,1.0,4225,1,0
+"2244 1st Avenue, New York, NY 10029",-1,3,1.0,3300,1110,1
+"424 E 116th St, New York, NY 10029",-1,2,1.0,2100,800,1
+"428 E 116th St, New York, NY 10029",-1,2,1.0,2000,700,1
+"403 E 62nd St, New York, NY 10065",-1,0,1.0,3200,520,1
+"2314 Amsterdam Ave, New York, NY 10033",-1,3,1.0,2900,1001,1
+"507 W 150th St, New York, NY 10031",-1,1,1.0,1750,666,1
+"618 Academy St, New York, NY 10034",-1,1,1.0,1695,750,1
+"345 Eldert St, New York, NY 11237",-1,1,1.0,2950,750,1
+"24 Thayer St, New York, NY 10040",-1,2,1.0,2200,950,1
+"600 W 196th St, New York, NY 10040",-1,1,1.0,1799,800,1
+"70 Post Ave, New York, NY 10034",-1,1,1.0,1695,800,1
+"14 Thayer St, New York, NY 10040",-1,2,1.0,2225,850,1
+"350 W 42nd St, New York, NY 10036",-1,1,1.0,2700,700,1
+"307 E 76th St, New York, NY 10021",-1,1,1.0,2200,750,1
+"210 E 89th St, New York, NY 10128",-1,1,1.0,3580,1,1
+"136 Haven Ave, New York, NY 10032",-1,4,1.0,3100,1000,1
+"520 W 190th St, New York, NY 10040",-1,3,1.0,2550,700,0
+"382 Wadsworth Ave, New York, NY 10040",-1,5,2.0,4250,1500,0
+"273 W 10th St, New York, NY 10014",-1,1,1.0,3995,600,1
+"130 Post Ave, New York, NY 10034",-1,2,1.0,2295,780,1
+"524 W 169th St, New York, NY 10032",-1,1,1.0,1650,400,0
+"507 W 179th St, New York, NY 10033",-1,3,1.0,2495,600,1
+"301 E 87th St, New York, NY 10128",-1,2,1.0,4100,900,1
+"1987 Madison Ave, New York, NY 10035",-1,0,1.0,1790,500,1
+"690 Fort Washington Ave, New York, NY 10040",-1,3,1.0,2850,684,1
+"159 E 92nd St, New York, NY 10128",-1,2,1.0,3050,582,1
+"359 Pleasant Ave, New York, NY 10035",-1,1,1.0,2099,850,1
+"404 E 117th St, New York, NY 10035",-1,2,1.0,2300,760,1
+"336 Fort Washington Ave, New York, NY 10033",-1,0,1.0,2156,500,1
+"300 Rector Pl, New York, NY 10280",-1,2,1.0,3300,630,1
+"164 E 112th St, New York, NY 10029",-1,2,1.0,2590,650,1
+"21 River Terrace, New York, NY 10282",-1,4,2.0,7000,995,1
+"95 Washington St, New York, NY 10006",-1,1,1.0,4000,800,1
+"171 E 115th St, New York, NY 10029",-1,2,1.0,2400,800,1
+"330 E 120th St, New York, NY 10035",-1,2,1.0,2350,880,1
+"422 E 83rd St, New York, NY 10028",-1,2,2.0,2499,900,1
+"2270 2nd Ave, New York, NY 10035",-1,2,1.0,2100,900,1
+"650 W 42nd St, New York, NY 10036",-1,1,1.0,3150,625,1
+"619 W 163rd St, New York, NY 10032",-1,2,1.0,2295,880,1
+"110 Bank St, New York, NY 10014",-1,1,1.0,3500,1120,0
+"24 Ludlow St, New York, NY 10002",-1,3,1.5,5600,1300,1
+"422 E 117th St, New York, NY 10035",-1,1,1.0,2495,725,1
+"420 E 61st St, New York, NY 10065",-1,1,1.5,4000,760,1
+"35 E 85th St, New York, NY 10028",-1,0,1.0,3000,650,1
+"525 E 72nd St, New York, NY 10021",-1,1,1.0,3700,800,1
+"124 Allen St, New York, NY 10002",-1,2,1.0,4400,750,0
+"202 E 7th St, New York, NY 10009",-1,1,1.0,2295,650,1
+"1125 E 85th St, New York, NY 10028",-1,2,1.0,2000,1100,1
+"139 Norfolk St, New York, NY 10002",-1,3,1.0,6100,950,0
+"249 E 116th St, New York, NY 10029",-1,3,1.0,3300,900,1
+"357 Pleasant Ave, New York, NY 10035",-1,1,1.0,1995,850,1
+"1729 Lexington Ave, New York, NY 10029",-1,2,1.0,2500,900,1
+"820 Riverside Dr, New York, NY 10032",-1,5,2.5,5042,1600,1
+"403 E 61st St, New York, NY 10065",-1,0,1.0,2500,450,0
+"505 W 167th St, New York, NY 10032",-1,3,1.0,3000,1000,1
+"328 Greenwich St, New York, NY 10013",-1,2,2.0,5325,1100,1
+"529 Broome St, New York, NY 10013",-1,1,1.0,2950,1,1
+"265 E 78th St, New York, NY 10075",-1,1,1.0,2295,1,1
+"435 E 118th St, New York, NY 10035",-1,2,1.0,2195,1000,1
+"460 E 79th St, New York, NY 10075",-1,0,1.0,1735,75,1
+"408 E 73rd St, New York, NY 10021",-1,1,1.0,2200,500,1
+"562 W 174th St, New York, NY 10033",-1,2,1.0,2395,700,1
+"71 E 110th St, New York, NY 10029",-1,2,1.5,3550,1070,1
+"78 Ridge St, New York, NY 10002",-1,1,1.0,3300,800,1
+"372 Central Park West, New York, NY 10025",-1,1,1.0,3900,850,0

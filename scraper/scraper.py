@@ -2,6 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 import json
+import re
+import tqdm
 
 ########## GLOBAL VARS #######################
 BASE_URL = 'https://www.apartments.com/'
@@ -54,19 +56,19 @@ def get_property_address_from_json(property):
     try:
         street = property['Address']['streetAddress']
     except:
-        street = ''
+        street = 'STREET'
     try:
         city = property['Address']['addressLocality']
     except:
-        city = ''
+        city = 'CITY'
     try:
         state = property['Address']['addressRegion']
     except:
-        state = ''
+        state = 'STATE'
     try:
         zip = property['Address']['postalCode']
     except:
-        zip = ''
+        zip = '#####'
     return street + ', ' + city + ', ' + state + ' ' + zip
 
 
@@ -82,8 +84,8 @@ def add_building_data(address, url):
         try:
             table_rows = soup.find('section', {'id': 'availabilitySection'}).find(
                 'tbody').find_all('tr', {'class': 'rentalGridRow'})
-        except:
-            print(url)
+        except Exception as e:
+            print('trouble getting table', url, e)
     for tr in table_rows:
         try:
             unit = get_unit_name(tr)
@@ -93,8 +95,8 @@ def add_building_data(address, url):
             sqft = get_sqft(tr)
             avail = get_avail(tr)
             add_unit(address, unit, beds, baths, rent, sqft, avail)
-        except:
-            print(url)
+        except Exception as e:
+            print('trouble getting unit data:\n\t', e, '\n\t', url)
 
 
 def get_unit_name(tr):
@@ -124,10 +126,15 @@ def get_baths(tr):
 
 def get_rent(tr):
     '''get rent'''
-    rent = tr.find('td', {'class': 'rent'})
-    if rent is None:
+    rent = tr.find('td', {'class': 'rent'}).text.strip()
+    rent = re.sub('[^0-9\-]', '', rent)
+    if rent == '':
         return -1
-    return int(rent.text.strip().replace(',', '').strip('$'))
+    try:
+        return int(rent)
+    except Exception as e:
+        range = rent.split('-')
+        return int((int(range[0]) + int(range[1]))/2)
 
 
 def get_sqft(tr):
@@ -140,10 +147,8 @@ def get_sqft(tr):
 
 def get_avail(tr):
     '''get availability'''
-    avail = tr.find('td', {'class': 'available'})
-    if avail is None:
-        return -1
-    if avail.get_text() == 'Available Now':
+    avail = tr.find('td', {'class': 'available'}).get_text().strip()
+    if avail == 'Available Now':
         return 1
     else:
         return 0
@@ -198,11 +203,19 @@ def write_csv():
                 writer.writerow(unit)
 
 
+def test():
+    '''code to figure minor stuff out'''
+    pass
+
+
 def main():
     '''find all the urls, scrape the data, write to csv'''
     extension = input('Please enter your unique search ID:\n') + '/'
+    print('Getting all property URLs...')
     fill_url_dict(extension)
+    print('Getting property data...')
     scrape()
+    print('Writing CSV')
     write_csv()
 
 
