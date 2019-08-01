@@ -2,8 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 import json
-import re
-import pandas
 
 ########## GLOBAL VARS #######################
 BASE_URL = 'https://www.apartments.com/'
