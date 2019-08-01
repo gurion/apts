@@ -8,7 +8,7 @@ import pandas
 ########## GLOBAL VARS #######################
 BASE_URL = 'https://www.apartments.com/'
 # This is your unique search identifier from a region
-extension = '?sk=2e9f24608a4a19df461e27d9e96015fa&bb=ioh107pkwH_m-0yC/'
+extension = '?sk=6da388250ba5e2bf7cc56ad8cc86b3f5&bb=lwhlvtpvvH8w0wG'
 headers = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:68.0) Gecko/20100101 Firefox/68.0'
 }
@@ -167,7 +167,7 @@ def add_unit(address, unit_num, beds, baths, rent, sqft, avail):
 
 
 def scrape():
-	'''get data for all apartments from each url'''
+    '''get data for all apartments from each url'''
     for url in url_dict:
         address = url_dict[url]
         add_address(address)
@@ -188,6 +188,7 @@ def write_csv():
 
 def main():
     '''find all the urls, scrape the data, write to csv'''
+    extension = input('Please enter your unique search ID:\n') + '/'
     fill_url_dict()
     scrape()
     write_csv()
