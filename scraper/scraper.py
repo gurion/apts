@@ -52,9 +52,22 @@ def get_property_addresses_and_urls_from_search_page(soup):
 def get_property_address_from_json(property):
     '''given json, extract address'''
     try:
-        return property['Address']['streetAddress'] + ', ' + property['Address']['addressLocality'] + ', ' + property['Address']['addressRegion'] + ' ' + property['Address']['postalCode']
-    except Exception as e:
-        print('issue getting address of property: ', property['Address'], '\n Error:', e)
+        street = property['Address']['streetAddress']
+    except:
+        street = ''
+    try:
+        city = property['Address']['addressLocality']
+    except:
+        city = ''
+    try:
+        state = property['Address']['addressRegion']
+    except:
+        state = ''
+    try:
+        zip = property['Address']['postalCode']
+    except:
+        zip = ''
+    return street + ', ' + city + ', ' + state + ' ' + zip
 
 
 def add_building_data(address, url):
