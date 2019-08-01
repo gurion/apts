@@ -5,7 +5,6 @@ import json
 
 ########## GLOBAL VARS #######################
 BASE_URL = 'https://www.apartments.com/'
-# This is your unique search identifier from a region
 headers = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:68.0) Gecko/20100101 Firefox/68.0'
 }
