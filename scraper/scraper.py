@@ -8,7 +8,6 @@ import pandas
 ########## GLOBAL VARS #######################
 BASE_URL = 'https://www.apartments.com/'
 # This is your unique search identifier from a region
-extension = '?sk=6da388250ba5e2bf7cc56ad8cc86b3f5&bb=lwhlvtpvvH8w0wG'
 headers = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:68.0) Gecko/20100101 Firefox/68.0'
 }
@@ -17,10 +16,10 @@ url_dict = {}
 ##############################################
 
 
-def fill_url_dict():
+def fill_url_dict(extension):
     '''return a list of property URLs to parse in a given polygon'''
     soup = get_page_soup(BASE_URL + extension)
-    page_urls = get_all_page_urls(soup)
+    page_urls = get_all_page_urls(extension, soup)
     for url in page_urls:
         get_property_addresses_and_urls_from_search_page(get_page_soup(url))
 
@@ -31,7 +30,7 @@ def get_page_soup(url):
     return BeautifulSoup(response.content, 'html.parser')
 
 
-def get_all_page_urls(soup):
+def get_all_page_urls(extension, soup):
     '''Get all the urls needed to iterate over all the placards'''
     try:
         pages = soup.find('div', {'id': 'placardContainer'}).find(
@@ -189,7 +188,7 @@ def write_csv():
 def main():
     '''find all the urls, scrape the data, write to csv'''
     extension = input('Please enter your unique search ID:\n') + '/'
-    fill_url_dict()
+    fill_url_dict(extension)
     scrape()
     write_csv()
 
