@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import csv
 import json
 import re
-import tqdm
+from tqdm import tqdm
 
 ########## GLOBAL VARS #######################
 BASE_URL = 'https://www.apartments.com/'
@@ -12,6 +12,7 @@ headers = {
 }
 data = {}
 url_dict = {}
+errors = {}
 ##############################################
 
 
@@ -19,7 +20,7 @@ def fill_url_dict(extension):
     '''return a list of property URLs to parse in a given polygon'''
     soup = get_page_soup(BASE_URL + extension)
     page_urls = get_all_page_urls(extension, soup)
-    for url in page_urls:
+    for url in tqdm(page_urls):
         get_property_addresses_and_urls_from_search_page(get_page_soup(url))
 
 
@@ -75,7 +76,6 @@ def get_property_address_from_json(property):
 def add_building_data(address, url):
     '''Get the data from the table of apartments associated with the building'''
     soup = get_page_soup(url)
-    address = url_dict[url]
     table_rows = []
     try:
         table_rows = soup.find('div', {'id': 'apartmentsTabContainer'}).find(
@@ -85,18 +85,30 @@ def add_building_data(address, url):
             table_rows = soup.find('section', {'id': 'availabilitySection'}).find(
                 'tbody').find_all('tr', {'class': 'rentalGridRow'})
         except Exception as e:
-            print('trouble getting table', url, e)
+            errors.update({
+                e: url
+            })
+
     for tr in table_rows:
-        try:
-            unit = get_unit_name(tr)
-            beds = get_beds(tr)
-            baths = get_baths(tr)
-            rent = get_rent(tr)
-            sqft = get_sqft(tr)
-            avail = get_avail(tr)
-            add_unit(address, unit, beds, baths, rent, sqft, avail)
-        except Exception as e:
-            print('trouble getting unit data:\n\t', e, '\n\t', url)
+        parse_row(tr, url)
+
+
+def parse_row(row, url):
+    '''get relevant data from a table row'''
+    try:
+        add_unit(
+            url_dict[url],
+            get_unit_name(row),
+            get_beds(row),
+            get_baths(row),
+            get_rent(row),
+            get_sqft(row),
+            get_avail(row)
+        )
+    except Exception as e:
+        errors.update({
+            e: url
+        })
 
 
 def get_unit_name(tr):
@@ -185,7 +197,7 @@ def add_unit(address, unit_num, beds, baths, rent, sqft, avail):
 
 def scrape():
     '''get data for all apartments from each url'''
-    for url in url_dict:
+    for url in tqdm(url_dict):
         address = url_dict[url]
         add_address(address)
         add_building_data(address, url)
@@ -198,7 +210,7 @@ def write_csv():
         writer = csv.DictWriter(file, fieldnames=fields)
 
         writer.writeheader()
-        for address in data:
+        for address in tqdm(data):
             for unit in data[address]['units']:
                 writer.writerow(unit)
 
@@ -215,8 +227,12 @@ def main():
     fill_url_dict(extension)
     print('Getting property data...')
     scrape()
-    print('Writing CSV')
+    print('Writing CSV...')
     write_csv()
+    if errors != {}:
+        print('Some errors occurred:\n')
+        for error in errors:
+            print('\t', error, ':', errors[error])
 
 
 if __name__ == '__main__':
