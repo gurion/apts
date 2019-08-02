@@ -3,3 +3,4 @@ bs4
 json
 csv
 re
+tqdm

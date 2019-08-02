@@ -12,7 +12,7 @@
 		"policies" : {
 			"pets" : "str",
 			"parking" : "str",
-			"property_info" : "str",
+			"building_info" : "str",
 			"fitness" : "str",
 			"outdoor" : "str"
 		}
