@@ -325,9 +325,8 @@ def write_csv():
 # Main
 ################################################################################
 def test():
-    '''testing minor stuff'''
-    soup = get_page_soup('https://www.apartments.com/21-wea-new-york-ny/w5rlg9k/')
-    get_fitness_info(soup)
+    '''testing minor stuff as I go'''
+    pass
 
 
 def main():
