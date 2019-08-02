@@ -102,7 +102,7 @@ def add_building_data(address, url):
 
 
 ################################################################################
-# Getting data for a specific apartment
+# Getting data for an individual apartment
 ################################################################################
 
 
