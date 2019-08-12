@@ -18,7 +18,6 @@ data = {}
 url_dict = {}
 errors = {}
 
-
 ################################################################################
 # Getting URLs and page data
 ################################################################################
@@ -75,17 +74,19 @@ def get_property_address_from_json(property):
     except:
         state = 'STATE'
     try:
-        zip = property['Address']['postalCode']
+        zip_code = property['Address']['postalCode']
     except:
-        zip = '#####'
-    return street + ', ' + city + ', ' + state + ' ' + zip
+        zip_code = '#####'
+    return street + ', ' + city + ', ' + state + ' ' + zip_code
 
 
 def add_building_data(address, url):
     '''Get the data from the table of apartments associated with the building'''
     soup = get_page_soup(url)
-    pets, parking, built, renovated, num_units, stories, fitness, outdoor = get_amenity_info(soup)
-    add_building_policies(address, pets, parking, built, renovated, num_units, stories, fitness, outdoor)
+    pets, parking, built, renovated, num_units, stories, fitness, outdoor = get_amenity_info(
+        soup)
+    add_building_policies(address, pets, parking, built,
+                          renovated, num_units, stories, fitness, outdoor)
     table_rows = []
     try:
         table_rows = soup.find('div', {'id': 'apartmentsTabContainer'}).find(
@@ -148,7 +149,7 @@ def get_rent(tr):
         return -1
     try:
         return int(rent)
-    except Exception as e:
+    except:
         range = rent.split('-')
         return int((int(range[0]) + int(range[1]))/2)
 
@@ -238,7 +239,8 @@ def add_to_building_info(dict, li):
 def get_fitness_info(soup):
     '''get info associated with fitness centers etc'''
     try:
-        fitness = soup.find('i', {'class': 'fitnessIcon'}).parent.parent.find_all('li')
+        fitness = soup.find('i', {'class': 'fitnessIcon'}
+                            ).parent.parent.find_all('li')
         return ';'.join([li.text.replace('•', '') for li in fitness])
     except:
         return 'N/A'
@@ -246,7 +248,8 @@ def get_fitness_info(soup):
 
 def get_outdoor_info(soup):
     try:
-        outdoor = soup.find('i', {'class': 'parksIcon'}).parent.parent.find_all('li')
+        outdoor = soup.find('i', {'class': 'parksIcon'}
+                            ).parent.parent.find_all('li')
         return ';'.join([li.text.replace('•', '') for li in outdoor])
     except:
         return 'N/A'
