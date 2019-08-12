@@ -1,4 +1,4 @@
-### Simple web scraper to get apartment data.
+### Web scraper to get apartment data from apartments.com.
 
 #### To use:
 1. Make sure all requirements are installed
@@ -9,3 +9,7 @@
 	* new-york-ny
 4. Output is put into a csv file called apts.csv in the directory in which you're running the script
 5. There are still errors I'm working on. As of now, these are printed to console, and you will be able to see the address at which there was an error, or the URL on which there was an error.
+
+#### To Do:
+1. Send requests through rotating proxy
+2. Integrate into server as backend for web app
