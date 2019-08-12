@@ -18,15 +18,17 @@ data = {}
 url_dict = {}
 errors = {}
 
+
+
 ################################################################################
 # Getting URLs and page data
 ################################################################################
 
 
-def fill_url_dict(extension):
+def fill_url_dict(extension, polygon):
     '''return a list of property URLs to parse in a given polygon'''
     soup = get_page_soup(BASE_URL + extension)
-    page_urls = get_all_page_urls(extension, soup)
+    page_urls = get_all_page_urls(extension, polygon, soup)
     for url in tqdm(page_urls):
         get_property_addresses_and_urls_from_search_page(get_page_soup(url))
 
@@ -37,14 +39,17 @@ def get_page_soup(url):
     return BeautifulSoup(response.content, 'html.parser')
 
 
-def get_all_page_urls(extension, soup):
+def get_all_page_urls(extension, polygon, soup):
     '''Get all the urls needed to iterate over all the placards'''
     try:
         pages = soup.find('div', {'id': 'placardContainer'}).find(
             'div', {'id': 'paging'}).find_all('a')
         start_page = pages[1].text
         last_page = pages[len(pages)-2].text
-        return [BASE_URL+extension+str(page_number) for page_number in range(int(start_page), int(last_page) + 1)]
+        if polygon:
+            return [BASE_URL+'apartments/' + str(page_number) + '/' + extension for page_number in range(int(start_page), int(last_page) + 1)]
+        else:
+            return [BASE_URL + extension + str(page_number) for page_number in range(int(start_page), int(last_page) + 1)]
     except AttributeError:
         return [BASE_URL+extension]
 
@@ -143,8 +148,10 @@ def get_baths(tr):
 
 def get_rent(tr):
     '''get rent'''
-    rent = tr.find('td', {'class': 'rent'}).text.strip()
-    rent = re.sub('[^0-9\-]', '', rent)
+    rent = tr.find('td', {'class': 'rent'})
+    if rent == None:
+        return -1
+    rent = re.sub('[^0-9\-]', '', rent.text.strip())
     if rent == '':
         return -1
     try:
@@ -156,16 +163,21 @@ def get_rent(tr):
 
 def get_sqft(tr):
     '''get square footage'''
-    sqft = tr.find('td', {'class': 'sqft'}).text.strip()
-    if (sqft == '' or sqft == '-'):
+    sqft = tr.find('td', {'class': 'sqft'})
+    if sqft == None:
+        return -1
+    sqft = sqft.text.strip()
+    if (sqft == '' or sqft == '—'):
         return -1
     return int(sqft.split()[0].strip().replace(',', ''))
 
 
 def get_avail(tr):
     '''get availability'''
-    avail = tr.find('td', {'class': 'available'}).get_text().strip()
-    if avail == 'Available Now':
+    avail = tr.find('td', {'class': 'available'})
+    if avail == None:
+        return 0
+    if avail.get_text().strip() == 'Available Now':
         return 1
     else:
         return 0
@@ -310,9 +322,9 @@ def scrape():
         add_building_data(address, url)
 
 
-def write_csv():
+def write_csv(file_name):
     '''write data to a csv file'''
-    with open('apts.csv', mode='w') as file:
+    with open(file_name, mode='w') as file:
         fields = ['address', 'unit', 'beds', 'baths', 'rent', 'sqft', 'avail', 'pets',
                   'parking', 'built', 'renovated', 'num_units', 'stories', 'fitness', 'outdoor']
         writer = csv.DictWriter(file, fieldnames=fields)
@@ -322,6 +334,13 @@ def write_csv():
             for unit in data[address]['units']:
                 unit.update(data[address]['policies'])
                 writer.writerow(unit)
+
+def get_polygon():
+    poly = input('Enter 1 if polygon search, 0 if not:\n')
+    if poly == '1':
+        return True
+    return False
+    
 
 
 ################################################################################
@@ -336,15 +355,17 @@ def main():
     '''find all the urls, scrape the data, write to csv'''
 
     extension = input('Please enter your unique search ID:\n') + '/'
+    is_polygon = get_polygon()
+    file_name = input('Please enter a file name:\n') + '.csv'
 
     print('Getting all property URLs...')
-    fill_url_dict(extension)
+    fill_url_dict(extension, is_polygon)
 
     print('Getting property data...')
     scrape()
 
     print('Writing CSV...')
-    write_csv()
+    write_csv(file_name)
 
     if errors != {}:
         print('Some errors occurred:\n')
