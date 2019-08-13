@@ -13,9 +13,9 @@
 			"pets" : "str",
 			"parking" : "str",
 			"built": "str",
-        	"renovated": "str",
-        	"num_units": "str",
-        	"stories": "str",
+			"renovated": "str",
+			"num_units": "str",
+			"stories": "str",
 			"fitness" : "str",
 			"outdoor" : "str"
 		}

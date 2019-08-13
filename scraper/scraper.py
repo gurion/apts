@@ -19,7 +19,6 @@ url_dict = {}
 errors = {}
 
 
-
 ################################################################################
 # Getting URLs and page data
 ################################################################################
@@ -125,7 +124,7 @@ def get_unit_name(tr):
     '''get unit number'''
     unit = tr.find('td', {'class': 'name '})
     if unit is None:
-        return -1
+        return 'N/A'
     return unit.text.strip()
 
 
@@ -150,10 +149,10 @@ def get_rent(tr):
     '''get rent'''
     rent = tr.find('td', {'class': 'rent'})
     if rent == None:
-        return -1
+        return 'N/A'
     rent = re.sub('[^0-9\-]', '', rent.text.strip())
     if rent == '':
-        return -1
+        return 'N/A'
     try:
         return int(rent)
     except:
@@ -165,10 +164,10 @@ def get_sqft(tr):
     '''get square footage'''
     sqft = tr.find('td', {'class': 'sqft'})
     if sqft == None:
-        return -1
+        return 'N/A'
     sqft = sqft.text.strip()
     if (sqft == '' or sqft == '—'):
-        return -1
+        return 'N/A'
     return int(sqft.split()[0].strip().replace(',', ''))
 
 
@@ -179,8 +178,10 @@ def get_avail(tr):
         return 0
     if avail.get_text().strip() == 'Available Now':
         return 1
-    else:
+    elif avail.get_text().strip() == 'Not Available':
         return 0
+    else:
+        return 2
 
 ################################################################################
 # Getting Amenity Info
@@ -202,7 +203,7 @@ def get_pet_info(soup):
     try:
         policies = soup.find_all('div', {'class': 'petPolicyDetails'})
         return ';'.join([policy.find('span').text.strip() for policy in policies])
-    except Exception as e:
+    except:
         return 'N/A'
 
 
@@ -211,7 +212,7 @@ def get_parking_info(soup):
     try:
         policies = soup.find_all('div', {'class': 'parkingTypeFeeContainer'})
         return ';'.join([policy.text.strip() for policy in policies])
-    except Exception as e:
+    except:
         return 'N/A'
 
 
@@ -230,7 +231,7 @@ def get_building_info(soup):
             add_to_building_info(building_info, li)
         return building_info["Built"], building_info["Renovated"], building_info["Units"], building_info["Stories"]
 
-    except Exception as e:
+    except:
         return 'N/A', 'N/A', 'N/A', 'N/A'
 
 
@@ -335,13 +336,10 @@ def write_csv(file_name):
                 unit.update(data[address]['policies'])
                 writer.writerow(unit)
 
-def get_polygon():
-    poly = input('Enter 1 if polygon search, 0 if not:\n')
-    if poly == '1':
-        return True
-    return False
+                
+def str_to_bool(string):
+    return string in ['1']
     
-
 
 ################################################################################
 # Main
@@ -355,7 +353,7 @@ def main():
     '''find all the urls, scrape the data, write to csv'''
 
     extension = input('Please enter your unique search ID:\n') + '/'
-    is_polygon = get_polygon()
+    is_polygon = str_to_bool(input('Please enter 1 if polygon search, 0 if not:\n'))
     file_name = input('Please enter a file name:\n') + '.csv'
 
     print('Getting all property URLs...')
